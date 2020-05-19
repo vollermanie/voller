@@ -1,5 +1,5 @@
 {
-  "css": ".footer {\n    background: #a5003c;\n    border-top: #a5003c;\n    color: #fff;\n}",
+  "css": ".footer {\n    background: #a5003c;\n    border-top: #a5003c;\n    color: #fff;\n}\na {\n    color: #fff;\n    text-decoration: none;\n    background-color: transparent;\n}",
   "html_head": "",
   "html_body": ""
 }
