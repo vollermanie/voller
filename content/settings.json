@@ -1,22 +1,22 @@
 {
-  "store_id": 1095,
-  "name": "Voller Manie",
   "domain": "voller.netlify.app",
-  "short_name": "Voller Manie",
-  "description": "",
+  "currency_symbol": "R$",
   "primary_color": "#a5003c",
-  "secondary_color": "#000000",
-  "bg_color": "#ffffff",
   "theme": {
     "bootswatch": "_"
   },
-  "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "bg_color": "#ffffff",
+  "logo": "/img/uploads/logo-nome-rosa.png",
+  "name": "Voller Manie",
+  "short_name": "Voller Manie",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
-  "country_code": "BR"
+  "mini_logo": "",
+  "favicon": "/img/uploads/favicon.png",
+  "country_code": "BR",
+  "secondary_color": "#000000",
+  "icon": "/img/icon.png",
+  "store_id": 1095,
+  "description": "Teste Teste",
+  "large_icon": "/img/large-icon.png"
 }
