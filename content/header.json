@@ -26,7 +26,10 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/vestidos?Vestidos",
+      "/vestidos?Vestidos"
+    ],
     "random": 6
   },
   "search_input": true
