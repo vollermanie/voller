@@ -1,16 +1,24 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 40%!",
+    "text": "Pedido Mínimo 12 produtos variados!",
     "link": "/promotion"
   },
   "contacts_stripe": {
     "pages": [
       {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
+        "title": "Esta loja é um PWA",
+        "link": "/posts/esta-loja-e-um-pwa"
       },
       {
-        "title": "Esta loja é um PWA",
+        "title": "Parcele em até 2 vezes sem juros!",
+        "link": "/posts/esta-loja-e-um-pwa"
+      },
+      {
+        "title": "5% de desconto no boleto",
+        "link": "/posts/esta-loja-e-um-pwa"
+      },
+      {
+        "title": "Enviamos para todo o Brasil",
         "link": "/posts/esta-loja-e-um-pwa"
       }
     ],
