@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": ".top-bar__nav{\ncolor: #a5003c;\n}",
   "html_head": "",
   "html_body": ""
 }
