@@ -1,5 +1,5 @@
 {
-  "css": ".top-bar__nav{ <!-- Cor da fonte do topo -->\ncolor: #a5003c;\n}\n.header__nav a { <!-- Fonte do menu negrito -->\n    font-weight: bold;\n}\n.top-bar a.top-bar__countdown { <!-- Fonte do topo negrito -->\n    font-weight: bold;\n}",
+  "css": ".top-bar__nav{ \ncolor: #a5003c;\n} <!-- Cor da fonte do topo -->\n.header__nav a { \n    font-weight: bold;\n} <!-- Fonte do menu negrito -->\n.top-bar a.top-bar__countdown { \n    font-weight: bold;\n} <!-- Fonte do topo negrito -->",
   "html_head": "",
   "html_body": ""
 }
