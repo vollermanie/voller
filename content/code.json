@@ -1,5 +1,5 @@
 {
-  "css": ".top-bar__nav{\ncolor: #a5003c;\n}",
+  "css": ".top-bar__nav{ <!-- Cor da fonte do topo -->\ncolor: #a5003c;\n}\n\n.header__nav a { <!-- Fonte do menu negrito -->\n    font-weight: bold;\n}",
   "html_head": "",
   "html_body": ""
 }
