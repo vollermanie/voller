@@ -1,5 +1,5 @@
 {
-  "css": ".top-bar__nav{ \ncolor: #a5003c;\n} \n.header__nav a { \n    font-weight: bold;\n} \n.top-bar a.top-bar__countdown { \n    font-weight: bold;\n} \n.footer__title[aria-expanded] {\n    font-weight: bold;\n    color: #a5003c;\n}\n.footer {\n    color: #a5003c;\n}\n.footer__title {\n    font-weight: bold;\n    color: #a5003c;\n}\n.footer__store {\n    color: #a5003c;\n    font-weight: bold;\n}\n.menu__item-icon {\n    margin-right: 3.75rem;\n}\n.menu__item img {\n    max-width: 250%;\n    max-height: 250%;\n}",
+  "css": ".top-bar__nav{ \ncolor: #a5003c;\n} \n.header__nav a { \n    font-weight: bold;\n} \n.top-bar a.top-bar__countdown { \n    font-weight: bold;\n} \n.footer__title[aria-expanded] {\n    font-weight: bold;\n    color: #a5003c;\n}\n.footer {\n    color: #a5003c;\n}\n.footer__title {\n    font-weight: bold;\n    color: #a5003c;\n}\n.footer__store {\n    color: #a5003c;\n    font-weight: bold;\n}\n.menu__item img {\n    max-width: 250%;\n    max-height: 250%;\n}",
   "html_head": "",
   "html_body": ""
 }
