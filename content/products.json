@@ -23,6 +23,11 @@
     {
       "type": "product-specifications",
       "enabled": true
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "title": "TESTE 32534"
     }
   ]
 }
