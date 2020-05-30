@@ -39,6 +39,13 @@
       "collection_id": null,
       "sort": "sales",
       "title": "QUERIDINHOS ❤️"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "sort": "news",
+      "title": "BODYS (clique pra ver +)",
+      "link": "https://voller.netlify.app/teste"
     }
   ]
 }
