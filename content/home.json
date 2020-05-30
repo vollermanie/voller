@@ -22,6 +22,18 @@
       ]
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "slides": [
+        {
+          "start": "2020-05-30T15:37:13.690Z",
+          "end": "2021-05-01T15:38:41.932Z",
+          "img": "/img/uploads/tarja2.png",
+          "mobile_img": "/img/uploads/tarja2.png"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
