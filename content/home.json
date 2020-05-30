@@ -43,10 +43,17 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": "5ed2875514ff772fde76741c",
+      "collection_id": null,
       "sort": "offers",
       "title": "Moda Inverno (Clique para ver +)",
       "link": "https://voller.netlify.app/moda-inverno"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "collection_id": "5ed2915f14ff772fde767611",
+      "sort": "news",
+      "title": "Body's (Clique e veja +)"
     }
   ]
 }
