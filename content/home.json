@@ -39,6 +39,14 @@
       "collection_id": null,
       "sort": "sales",
       "title": "QUERIDINHOS ❤️"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "collection_id": "5ed2875514ff772fde76741c",
+      "sort": "offers",
+      "title": "Moda Inverno (Clique aqui e veja +)",
+      "link": "https://voller.netlify.app/moda-inverno"
     }
   ]
 }
