@@ -3,7 +3,8 @@
   "currency_symbol": "R$",
   "primary_color": "#a5003c",
   "theme": {
-    "bootswatch": "_"
+    "bootswatch": "_",
+    "custom": "_"
   },
   "bg_color": "#ffffff",
   "logo": "/img/uploads/logopageprincipal.webp",
@@ -12,11 +13,11 @@
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
-  "favicon": "/img/uploads/favicon.png",
+  "favicon": "/img/uploads/logo-rosa.png",
   "country_code": "BR",
   "secondary_color": "#000000",
-  "icon": "/img/icon.png",
+  "icon": "/img/uploads/logo-rosa.png",
   "store_id": 1095,
-  "description": "Teste Teste",
-  "large_icon": "/img/large-icon.png"
+  "description": "Sua loja de atacado de excelência no Brasil com as melhores ofertas em roupas. Ofertas para o público feminino com vestuário na moda e tendências.",
+  "large_icon": "/img/uploads/logo-rosa.png"
 }
