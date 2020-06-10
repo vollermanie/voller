@@ -26,9 +26,7 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [
-      "/vestidos?Vestidos"
-    ],
+    "featured": [],
     "random": 7,
     "full_width": true
   },
