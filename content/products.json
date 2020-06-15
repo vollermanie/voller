@@ -27,7 +27,8 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "title": "RECOMENDADOS 🌸"
+      "title": "RECOMENDADOS 🌸",
+      "sort": "sales"
     }
   ]
 }
