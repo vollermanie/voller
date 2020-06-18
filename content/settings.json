@@ -1,4 +1,5 @@
 {
+  "store_id": 1095,
   "domain": "voller.netlify.app",
   "currency_symbol": "R$",
   "primary_color": "#a5003c",
@@ -17,7 +18,6 @@
   "country_code": "BR",
   "secondary_color": "#000000",
   "icon": "/img/uploads/logo-rosa.png",
-  "store_id": 1095,
   "description": "Sua loja de atacado de excelência no Brasil com as melhores ofertas em roupas. Ofertas para o público feminino com vestuário na moda e tendências.",
   "large_icon": "/img/uploads/logo-rosa.png"
 }
