@@ -1,14 +1,5 @@
 {
-  "sort_categories": [
-    "blusas-e-regatas",
-    "bodys",
-    "calcas",
-    "croppeds",
-    "macacoes-e-jardineiras",
-    "moda-inverno",
-    "shorts-e-saias",
-    "vestidos"
-  ],
+  "sort_categories": [],
   "phone_wpp": true,
   "socials": true
 }
