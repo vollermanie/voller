@@ -3,37 +3,6 @@
   "meta_description": "Sua loja de atacado de excelência no Brasil com as melhores ofertas em roupas. Ofertas para o público feminino com vestuário na moda e tendências.",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "img": "/img/uploads/banner-politicas-de-envio.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z"
-        },
-        {
-          "img": "/img/uploads/banner-pagamentos.webp",
-          "alt": "Banner sample two",
-          "start": "",
-          "end": ""
-        }
-      ]
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "start": "2020-05-30T15:37:13.690Z",
-          "end": "2021-05-01T15:38:41.932Z",
-          "img": "/img/uploads/tarja2.png",
-          "mobile_img": "/img/uploads/tarja2.png"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
