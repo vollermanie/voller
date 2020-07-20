@@ -19,7 +19,7 @@
   font-size: var(--font-size-lg);
   font-weight: bold;
 }
-.payment-option__discount.badge.badge-success {
+.payment-option__discount.badge.badge-success, .badge.badge-success.payment__discount {
   display: none;
 }
 .minicart__subtotal, .cart__total {
