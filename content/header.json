@@ -6,20 +6,19 @@
   "contacts_stripe": {
     "pages": [
       {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
+        "title": "Site Seguro!"
       },
       {
-        "title": "Parcele em até 2 vezes sem juros!",
-        "link": "/posts/esta-loja-e-um-pwa"
+        "title": "Parcele em até 12 vezes no cartão!",
+        "link": ""
       },
       {
         "title": "Seja um(a) dos nossos revendedores!",
-        "link": "/posts/esta-loja-e-um-pwa"
+        "link": ""
       },
       {
         "title": "Enviamos para todo o Brasil",
-        "link": "/posts/esta-loja-e-um-pwa"
+        "link": ""
       }
     ],
     "phone_wpp": true,
