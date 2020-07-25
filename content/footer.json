@@ -37,7 +37,7 @@
     "hsbc": false,
     "bradesco": false,
     "santander": false,
-    "mastercard": true,
+    "mastercard": false,
     "paypal": false,
     "citibank": false,
     "diners": false,
