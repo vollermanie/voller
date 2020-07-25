@@ -2,8 +2,6 @@
   "description": {
     "title": "Voller Manie",
     "text": "Sua loja de T-Shirts no atacado de excelência no Brasil com as melhores ofertas e qualidade. "
-    "src": "/img/uploads/compra-segura.png",
-    "alt": "compra segura e forma de pagamento"
   },
   "links_1": {
     "list_pages": true,
@@ -30,21 +28,21 @@
   ],
   "payment_methods": {
     "bb": false,
-    "visa": true,
-    "boleto": true,
+    "visa": false,
+    "boleto": false,
     "aura": false,
     "banrisul": false,
-    "elo": true,
-    "hipercard": true,
+    "elo": false,
+    "hipercard": false,
     "hsbc": false,
     "bradesco": false,
     "santander": false,
     "mastercard": true,
-    "paypal": true,
+    "paypal": false,
     "citibank": false,
-    "diners": true,
+    "diners": false,
     "mais": false,
-    "amex": true,
+    "amex": false,
     "itau": false
   },
   "credits": ""
