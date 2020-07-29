@@ -34,6 +34,18 @@
       "title": "QUERIDINHOS ❤️"
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "slides": [
+        {
+          "start": "2020-07-29T16:40:12.569Z",
+          "end": "",
+          "mobile_img": "/img/uploads/4figuras.png",
+          "img": "/img/uploads/4figuros-grande.png"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
