@@ -10,7 +10,8 @@
           "start": "2020-07-14T19:41:25.667Z",
           "end": "2030-07-14T19:41:00.000Z",
           "img": "/img/uploads/banner-politica-de-envio-copia-copia.webp",
-          "link": "https://voller.netlify.app/pages/entrega"
+          "link": "https://voller.netlify.app/pages/entrega",
+          "alt": "Prazo de até 5 dias úteis para a postagem. Saiba Mais!"
         }
       ]
     },
@@ -22,7 +23,9 @@
           "start": "2020-07-14T22:11:29.666Z",
           "end": "",
           "img": "/img/uploads/tarja-webp-1-.webp",
-          "mobile_img": "/img/uploads/fabricacao-2.jpg"
+          "mobile_img": "/img/uploads/fabricacao.webp",
+          "link": "",
+          "alt": "Novidades no nosso site. Aproveite!"
         }
       ]
     },
