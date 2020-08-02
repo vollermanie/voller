@@ -1,24 +1,25 @@
 {
   "marketing_stripe": {
     "text": "PEDIDO MÍNIMO 12 PEÇAS VARIADAS!  💛",
-    "link": "/promotion"
+    "link": "/index"
   },
   "contacts_stripe": {
     "pages": [
       {
-        "title": "Site Seguro!"
+        "title": "Site Seguro!",
+        "link": "/index"
       },
       {
         "title": "Parcele em até 12 vezes no cartão!",
-        "link": ""
+        "link": "/index"
       },
       {
         "title": "Seja um(a) dos nossos revendedores!",
-        "link": ""
+        "link": "/index"
       },
       {
         "title": "Enviamos para todo o Brasil",
-        "link": ""
+        "link": "/index"
       }
     ],
     "phone_wpp": true,
