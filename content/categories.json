@@ -1,15 +1,6 @@
 {
   "sections": [
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/4figuros-grande.webp",
-          "mobile_img": "/img/uploads/4figuras.webp"
-        }
-      ]
-    },
-    {
       "type": "breadcrumbs",
       "enabled": true
     },
@@ -27,6 +18,15 @@
     {
       "type": "document-description",
       "enabled": true
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/4figuros-grande.webp",
+          "mobile_img": "/img/uploads/4figuras.webp"
+        }
+      ]
     }
   ]
 }
