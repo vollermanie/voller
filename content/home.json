@@ -25,16 +25,8 @@
       ]
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "start": "2020-08-06T20:29:38.443Z",
-          "end": "2020-08-06T20:29:38.486Z",
-          "img": "/img/uploads/tarja-webp-1-.webp",
-          "mobile_img": "/img/uploads/fabricacao.webp"
-        }
-      ]
+      "type": "custom-content",
+      "markdown": "\n\n⚠  ATENÇÃO! ⚠  VENDAS SOMENTE NO ATACADO, NÃO VENDEMOS VAREJO, PEDIDO MÍNIMO 12 PEÇAS!"
     },
     {
       "type": "collection-shelf",
