@@ -25,6 +25,13 @@
       ]
     },
     {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "collection_id": null,
+      "sort": "news",
+      "title": "QUERIDINHOS ❤️"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -33,13 +40,6 @@
           "alt": "Parcele em 2 vezes sem juros, compre no atacado a partir de 12 peças."
         }
       ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": null,
-      "sort": "news",
-      "title": "QUERIDINHOS ❤️"
     },
     {
       "type": "collection-shelf",
