@@ -7,6 +7,11 @@
       "autoplay": 9000,
       "slides": [
         {
+          "start": "2020-08-06T15:53:09.042Z",
+          "end": "",
+          "img": "/img/uploads/independencia.jpg"
+        },
+        {
           "start": "2020-07-14T19:41:25.667Z",
           "end": "2030-07-14T19:41:00.000Z",
           "img": "/img/uploads/banner-politica-de-envio-copia-copia.webp",
