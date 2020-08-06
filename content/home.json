@@ -25,16 +25,12 @@
       ]
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
+      "type": "banners-grid",
+      "banners": [
         {
-          "start": "2020-07-14T22:11:29.666Z",
-          "end": "",
-          "img": "/img/uploads/tarja-webp-1-.webp",
-          "mobile_img": "/img/uploads/fabricacao.webp",
-          "link": "",
-          "alt": "Novidades no nosso site. Aproveite!"
+          "img": "/img/uploads/4figuros-grande.webp",
+          "mobile_img": "/img/uploads/4figuras.jpg",
+          "alt": "Parcele em 2 vezes sem juros, compre no atacado a partir de 12 peças."
         }
       ]
     },
@@ -44,16 +40,6 @@
       "collection_id": null,
       "sort": "news",
       "title": "QUERIDINHOS ❤️"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/4figuros-grande.webp",
-          "mobile_img": "/img/uploads/4figuras-1616x800.jpg",
-          "alt": "Parcele em 2 vezes sem juros, compre no atacado a partir de 12 peças."
-        }
-      ]
     },
     {
       "type": "collection-shelf",
