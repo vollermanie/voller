@@ -29,6 +29,17 @@
       "markdown": "\n\n⚠  ATENÇÃO! ⚠  VENDAS SOMENTE NO ATACADO, NÃO VENDEMOS VAREJO, PEDIDO MÍNIMO 12 PEÇAS!"
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "slides": [
+        {
+          "start": "2020-08-07T15:06:09.087Z",
+          "end": "2020-08-07T15:06:09.135Z",
+          "img": "/img/uploads/tarja-jpg-1-.png"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
