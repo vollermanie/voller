@@ -26,12 +26,7 @@
     },
     {
       "type": "custom-content",
-      "markdown": "\n\n⚠  ATENÇÃO! ⚠  VENDAS SOMENTE NO ATACADO, NÃO VENDEMOS VAREJO, PEDIDO MÍNIMO 12 PEÇAS!"
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": []
+      "markdown": "⚠  **ATENÇÃO**! ⚠  VENDAS SOMENTE NO ATACADO, NÃO VENDEMOS VAREJO, **PEDIDO MÍNIMO 12 PEÇAS**!"
     },
     {
       "type": "collection-shelf",
