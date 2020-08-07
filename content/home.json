@@ -29,7 +29,9 @@
       "banners": [
         {
           "img": "/img/uploads/pedido-minimo-110x90.jpg",
-          "mobile_img": "/img/uploads/pedido-minimocel.jpg"
+          "mobile_img": "/img/uploads/pedido-minimocel.jpg",
+          "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 12 PEÇAS!",
+          "link": "https://www.vollermanie.com.br/pages/faq"
         }
       ]
     },
