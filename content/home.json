@@ -25,8 +25,12 @@
       ]
     },
     {
-      "type": "custom-content",
-      "markdown": "⚠  **ATENÇÃO**! ⚠  VENDAS SOMENTE NO ATACADO, NÃO VENDEMOS VAREJO, **PEDIDO MÍNIMO 12 PEÇAS**!"
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/pedido-minimo.jpg"
+        }
+      ]
     },
     {
       "type": "collection-shelf",
