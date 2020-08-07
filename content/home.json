@@ -31,13 +31,7 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "slides": [
-        {
-          "start": "2020-08-07T15:06:09.087Z",
-          "end": "",
-          "img": "/img/uploads/tarja-jpg-1-.png"
-        }
-      ]
+      "slides": []
     },
     {
       "type": "collection-shelf",
