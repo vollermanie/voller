@@ -147,6 +147,7 @@ export default {
 
     hasBuyerInfo () {
       const { customer } = this
+      console.log('buyer:', customer)
       return this.customerEmail &&
         customer.name && customer.name.given_name && customer.name.family_name &&
         customer.birth_date && customer.birth_date.day &&
@@ -164,6 +165,9 @@ export default {
         this.$nextTick(() => {
           this.editAccount = false
           console.log('Set `editAccount` false')
+          setTimeout(() => {
+            console.log('`hasBuyerInfo`', this.hasBuyerInfo)
+          }, 1000)
         })
       }
     },
@@ -296,6 +300,7 @@ export default {
       if (email) {
         this.$emit('update:customer', { ...this.customer, main_email: email })
         this.isUserIdentified = true
+        this.editAccount = true
       }
     },
 
