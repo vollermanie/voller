@@ -1,6 +1,8 @@
 {
   "store_id": 1095,
   "domain": "vollermanie.com.br",
+  "name": "Voller Manie",
+  "short_name": "Voller Manie",
   "currency_symbol": "R$",
   "primary_color": "#a5003c",
   "theme": {
@@ -9,8 +11,6 @@
   },
   "bg_color": "#ffffff",
   "logo": "/img/uploads/logopageprincipal.webp",
-  "name": "Voller Manie",
-  "short_name": "Voller Manie",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
