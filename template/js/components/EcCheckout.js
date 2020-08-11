@@ -16,16 +16,16 @@ import {
 } from '@ecomplus/utils'
 
 import ecomCart from '@ecomplus/shopping-cart'
-import baseModulesRequestData from '../../lib/base-modules-request-data'
+import baseModulesRequestData from '@ecomplus/storefront-app/src/lib/base-modules-request-data'
 import DiscountApplier from '#components/DiscountApplier.vue'
 import LoginBlock from '#components/LoginBlock.vue'
 import ShippingCalculator from '#components/ShippingCalculator.vue'
 import ShippingLine from '#components/ShippingLine.vue'
 import RecommendedItems from '#components/RecommendedItems.vue'
-import PaymentMethods from '../PaymentMethods.vue'
+import PaymentMethods from '@ecomplus/storefront-app/src/components/PaymentMethods.vue'
 import AccountForm from '#components/AccountForm.vue'
 import AccountAddresses from '#components/AccountAddresses.vue'
-import EcSummary from '../EcSummary.vue'
+import EcSummary from '@ecomplus/storefront-app/src/components/EcSummary.vue'
 
 import {
   Bag,
