@@ -5,6 +5,10 @@
       "enabled": true
     },
     {
+      "type": "custom-content",
+      "markdown": "<!--StartFragment-->\n\nOs pedidos serão **enviados** em até 05 (cinco) dias úteis após a confirmação do pagamento junto as instituições financeiras.\n\nFazemos de tudo pra enviar antes do prazo, porém o nosso prazo limite é de 5 (cinco) dias úteis.\n\n<!--EndFragment-->"
+    },
+    {
       "type": "product-block",
       "enabled": true
     },
