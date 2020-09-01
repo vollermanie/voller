@@ -10,7 +10,7 @@
     },
     {
       "type": "custom-content",
-      "markdown": "<!--StartFragment-->\n\n• **Prazo para postagem:** 5 dias úteis, podendo ser postado até antes\n\nO cálculo do frete conta Prazo de Postagem + Prazo de entrega\n\n<!--EndFragment-->"
+      "markdown": "<!--StartFragment-->\n\n• ***Prazo para postagem:*** 5 dias úteis, podendo ser postado até antes\n\nO **cálculo do frete** conta Prazo de Postagem + Prazo de entrega\n\n<!--EndFragment-->"
     },
     {
       "type": "product-description",
