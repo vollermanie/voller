@@ -5,6 +5,14 @@
       "enabled": true
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/alteracao-tamanho.jpg"
+        }
+      ]
+    },
+    {
       "type": "product-block",
       "enabled": true
     },
