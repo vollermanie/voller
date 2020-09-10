@@ -8,7 +8,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/alteracao-tamanho.jpg"
+          "img": "/img/uploads/alteracao-tamanho.jpg",
+          "mobile_img": "/img/uploads/alteracao-tamanho-celular.jpg"
         }
       ]
     },
