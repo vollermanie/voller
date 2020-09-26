@@ -2,9 +2,6 @@
 #cart-quickview .minicart__btn-checkout.btn.btn-block.btn-primary, .cart .cart__info .cart__btn-checkout {
   display: none;
 }
-.payment-option__discount.badge.badge-success, .badge.badge-success.payment__discount {
-  display: none;
-}
 @media(max-width: 500px) {
 .checkout__step--current::after {
   content: '\A aba ativa';
