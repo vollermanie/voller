@@ -56,4 +56,4 @@ setInterval(function () {
     }
     router1.afterEach(addRoute1ToData)
   }
-}, 1000)
+}, 300)
