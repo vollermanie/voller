@@ -75,12 +75,14 @@
         {
           "start": "2020-10-17T12:06:16.773Z",
           "end": "",
-          "img": "/img/uploads/banner-referencias.jpg"
+          "img": "/img/uploads/banner-referencias.jpg",
+          "mobile_img": "/img/uploads/referecia-celular-teste01.jpg"
         },
         {
           "start": "2020-10-17T12:07:12.511Z",
           "end": "",
-          "img": "/img/uploads/banner-referencias2.jpg"
+          "img": "/img/uploads/banner-referencias2.jpg",
+          "mobile_img": "/img/uploads/referecia-celular-teste01.jpg"
         }
       ]
     }
