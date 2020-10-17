@@ -64,7 +64,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/algumas-referencias.png"
+          "img": "/img/uploads/algumas-referencias.png",
+          "mobile_img": "/img/uploads/ref-celular-branco.jpg"
         }
       ]
     },
