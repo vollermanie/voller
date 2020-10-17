@@ -59,6 +59,14 @@
       "sort": "sales",
       "title": "T-Shirts 👚 (Clique aqui e veja mais)",
       "link": "https://www.vollermanie.com.br/t-shirts-ver-mais"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/algumas-referencias.png"
+        }
+      ]
     }
   ]
 }
