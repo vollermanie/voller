@@ -14,5 +14,10 @@
 .checkout__col:first-child > .d-none {
   display: block !important;
 }
-
+.products-carousel .ts-shelf-container {
+  display: none !important;
+}
+.product-card, .products-carousel__item {
+  padding: 0;
+}
 }
