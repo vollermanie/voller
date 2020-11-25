@@ -1,8 +1,5 @@
 {
-  "store_id": 1095,
   "domain": "vollermanie.com.br",
-  "name": "Voller Manie",
-  "short_name": "Voller Manie",
   "currency_symbol": "R$",
   "primary_color": "#a5003c",
   "theme": {
@@ -11,6 +8,8 @@
   },
   "bg_color": "#ffffff",
   "logo": "/img/uploads/logopageprincipal.webp",
+  "name": "Voller Manie",
+  "short_name": "Voller Manie",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
@@ -18,6 +17,7 @@
   "country_code": "BR",
   "secondary_color": "#000000",
   "icon": "/img/uploads/indice.webp",
-  "description": "Sua loja de T-Shirts no atacado de excelência no Brasil com as melhores ofertas e qualidade. ",
+  "store_id": 1095,
+  "description": "Sua loja de Roupa Feminina no Atacado de excelência no Brasil com as melhores ofertas e qualidade. ",
   "large_icon": "/img/uploads/indice.webp"
 }
