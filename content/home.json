@@ -55,10 +55,11 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": null,
-      "sort": "sales",
-      "title": "T-Shirts 👚 (Clique aqui e veja mais)",
-      "link": "https://www.vollermanie.com.br/t-shirts-ver-mais"
+      "limit": 12,
+      "page": 1,
+      "collection_id": "5fbecd4769274c73fcdbad6d:categories:CONJUNTOS:/conjuntos",
+      "title": "Conjuntos 🎀  (Clique aqui e veja mais)",
+      "link": "https://www.vollermanie.com.br/conjuntos"
     },
     {
       "type": "banners-grid",
@@ -72,11 +73,10 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "5fbecd4769274c73fcdbad6d:categories:CONJUNTOS:/conjuntos",
-      "title": "Conjuntos 🎀  (Clique aqui e veja mais)",
-      "link": "https://www.vollermanie.com.br/conjuntos"
+      "collection_id": null,
+      "sort": "sales",
+      "title": "T-Shirts 👚 (Clique aqui e veja mais)",
+      "link": "https://www.vollermanie.com.br/t-shirts-ver-mais"
     },
     {
       "type": "banner-slider",
