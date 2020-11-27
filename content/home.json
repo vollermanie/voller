@@ -62,6 +62,14 @@
       "link": "https://www.vollermanie.com.br/conjuntos"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "collection_id": null,
+      "sort": "sales",
+      "title": "T-Shirts 👚 (Clique aqui e veja mais)",
+      "link": "https://www.vollermanie.com.br/t-shirts-ver-mais"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -69,14 +77,6 @@
           "mobile_img": "/img/uploads/ref2-celular-branco.jpg"
         }
       ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": null,
-      "sort": "sales",
-      "title": "T-Shirts 👚 (Clique aqui e veja mais)",
-      "link": "https://www.vollermanie.com.br/t-shirts-ver-mais"
     },
     {
       "type": "banner-slider",
