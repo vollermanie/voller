@@ -26,21 +26,27 @@
       "slides": [
         {
           "start": "2020-12-01T18:14:50.409Z",
-          "end": "2022-09-30T18:20:27.208Z",
+          "end": "",
           "img": "/img/uploads/computador-novos.jpg",
           "mobile_img": "/img/uploads/mobile-7.8.jpg"
         },
         {
           "img": "/img/uploads/computador-3.4.5.6.jpg",
           "start": "2020-12-01T18:23:25.896Z",
-          "end": "2020-12-01T18:23:25.958Z",
+          "end": "",
           "mobile_img": "/img/uploads/mobile-5.6.jpg"
         },
         {
           "start": "2020-12-01T18:28:47.828Z",
-          "end": "2020-12-01T18:28:47.912Z",
+          "end": "",
           "img": "/img/uploads/computador-3out.4st.1.2.jpg",
           "mobile_img": "/img/uploads/mobile-3.4.jpg"
+        },
+        {
+          "start": "2020-12-01T19:05:23.481Z",
+          "end": "",
+          "img": "/img/uploads/computador-4out.1.2.3.jpg",
+          "mobile_img": "/img/uploads/mobile-2.3.jpg"
         }
       ]
     },
