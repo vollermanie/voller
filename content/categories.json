@@ -15,6 +15,27 @@
       "type": "banners-grid",
       "banners": [
         {
+          "img": "/img/uploads/desktop.jpg",
+          "mobile_img": "/img/uploads/ref2-celular-branco.jpg"
+        }
+      ]
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "slides": [
+        {
+          "start": "2020-12-01T18:14:50.409Z",
+          "end": "2022-09-30T18:20:27.208Z",
+          "img": "/img/uploads/computador-novos.jpg",
+          "mobile_img": "/img/uploads/mobile-7.8.jpg"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
           "img": "/img/uploads/tarja-pedido-minimo-computador-comprimento-maior.jpg",
           "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 10 PEÇAS!",
           "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado.jpg"
