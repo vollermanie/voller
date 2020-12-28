@@ -1,12 +1,6 @@
 [build]
   publish = "publish"
   functions = "functions-zip"
-  
-[[redirects]]
-  from = "/*"
-  to = "/pages/lancamentos.html"
-  status = 302
-  force = true
 
 [[redirects]]
   from = "/*"
@@ -52,5 +46,3 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=86400, s-maxage=600"
-    
-
