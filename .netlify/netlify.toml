@@ -1,13 +1,12 @@
-[[redirects]]
-
-  from = "/*"
-  to = "https://www.vollermanie.com.br/pages/lancamentos"
-  status = 302
-  force = true
-  
-  [build]
+[build]
   publish = "publish"
   functions = "functions-zip"
+  
+[[redirects]]
+  from = "/*"
+  to = "/pages/lancamentos.html"
+  status = 302
+  force = true
 
 [[redirects]]
   from = "/*"
