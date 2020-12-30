@@ -4,7 +4,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<div class=\"extra-page\" id=\"lancamentos\" >\n    <section class=\"md-content mb-5 pt-1 pt-sm-2 pt-lg-3\">\n        <div class=\"container\">\n            <p><img src=\"/img/uploads/logo_redefinida.png\" alt=\"\"></p>\n            <p>Olá, estamos fechados preparando novidades incríveis para você!!</p>\n            <p>Retornamos dia 11/01/2020</p>\n\n        </div>\n    </section>\n</div>"
+      "html": "<div class=\"extra-page\" id=\"lancamentos\" >\n    <section class=\"md-content mb-5 pt-1 pt-sm-2 pt-lg-3\">\n        <div class=\"container\">\n            <p><img src=\"/img/uploads/logo_redefinida.png\" alt=\"\"></p>\n            <p>Olá, estamos fechados preparando novidades incríveis para você!!</p>\n            <p>Retornamos em Janeiro, avisaremos em nossas redes sociais</p>\n\n        </div>\n    </section>\n</div>"
     }
   ]
 }
