@@ -43,8 +43,14 @@
           "mobile_img": "/img/uploads/dezembro-mobile-1.jpg"
         },
         {
-          "start": "2020-12-01T18:28:47.828Z",
+          "start": "2021-01-11T21:58:26.892Z",
           "end": "",
+          "img": "/img/uploads/dezembro-computador-2.jpg",
+          "mobile_img": "/img/uploads/dezembro-mobile-2.jpg"
+        },
+        {
+          "start": "2021-01-11T21:58:25.195Z",
+          "end": "2021-01-11T21:58:25.276Z",
           "img": "/img/uploads/computador-3out.4st.1.2.jpg",
           "mobile_img": "/img/uploads/mobile-3.4.jpg"
         },
@@ -56,8 +62,8 @@
         },
         {
           "img": "/img/uploads/computador-8a.9a.1.2.jpg",
-          "start": "2020-12-01T19:12:46.959Z",
-          "end": "",
+          "start": "2021-01-11T21:58:22.907Z",
+          "end": "2021-01-11T21:58:22.978Z",
           "mobile_img": "/img/uploads/mobile-1.2.jpg"
         }
       ]
