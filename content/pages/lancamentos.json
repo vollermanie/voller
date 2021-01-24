@@ -4,7 +4,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<div class=\"extra-page\" id=\"lancamentos\" >\n    <section class=\"md-content mb-5 pt-1 pt-sm-2 pt-lg-3\">\n        <div class=\"container\">\n            <p><img src=\"/img/uploads/logo_redefinida.png\" alt=\"\"></p>\n            <p>OLÁ, ZERAMOS NOSSO ESTOQUE!!</p>\n            <p>Estamos Fazendo Reposições e Preparando Novidades Incríveis!! 💛</p>\n            <p>RETORNAMOS NA SEGUNDA FEIRA, Avisaremos Em Nossas Redes Sociais a hora</p>\n\n        </div>\n    </section>\n</div>"
+      "html": "<div class=\"extra-page\" id=\"lancamentos\" >\n    <section class=\"md-content mb-5 pt-1 pt-sm-2 pt-lg-3\">\n        <div class=\"container\">\n            <p><img src=\"/img/uploads/logo_redefinida.png\" alt=\"\"></p>\n            <p>OLÁ, ZERAMOS NOSSO ESTOQUE!!</p>\n            <p>Estamos Fazendo Reposições e Preparando Novidades Incríveis!! 💛</p>\n            <p>RETORNAMOS NA TERÇA FEIRA, Avisaremos Em Nossas Redes Sociais a hora</p>\n\n        </div>\n    </section>\n</div>"
     }
   ]
 }
