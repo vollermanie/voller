@@ -72,9 +72,9 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/tarja-pedido-minimo-computador-comprimento-maior.jpg",
+          "img": "/img/uploads/tarja-pedido-minimo-computador-redimencionado.jpg",
           "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 10 PEÇAS!",
-          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado.jpg"
+          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado-redimencionado.jpg"
         }
       ]
     },
