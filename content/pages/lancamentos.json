@@ -4,7 +4,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<div class=\"extra-page\" id=\"lancamentos\" >\n    <section class=\"md-content mb-5 pt-1 pt-sm-2 pt-lg-3\">\n        <div class=\"container\">\n            <p><img src=\"/img/uploads/logo_redefinida.png\" alt=\"\"></p>\n            <p>Olá, estamos repondo nosso estoque!!</p>\n            <p>Voltamos na Terça Feira com promoções INCRIVEIS!! 💛</p>\n            <p>Conjuntos, Macaquinhos e Vestidos A PARTIR DE R$ 24,00 no Atacado😱</p>\n            <p>Avisaremos o horario da liberação do site nas nossas redes sociais</p>\n            <p>NÃO PERCA!</p>\n\n        </div>\n    </section>\n</div>"
+      "html": "<div class=\"extra-page\" id=\"lancamentos\" >\n    <section class=\"md-content mb-5 pt-1 pt-sm-2 pt-lg-3\">\n        <div class=\"container\">\n            <p><img src=\"/img/uploads/logo_redefinida.png\" alt=\"\"></p>\n            <p>Olá, estamos repondo nosso estoque!!</p>\n            <p>Voltamos na AMANHÃ com promoções INCRIVEIS!! 💛</p>\n            <p>Conjuntos, Macaquinhos e Vestidos A PARTIR DE R$ 27,00 no Atacado😱</p>\n            <p>Avisaremos o horario da liberação do site nas nossas redes sociais</p>\n            <p>NÃO PERCA!</p>\n\n        </div>\n    </section>\n</div>"
     }
   ]
 }
