@@ -1,50 +1,50 @@
 {
   "assetsByChunkName": {
     "vendors~app-account~app-confirmation~app-order": [
-      "chunk.fbf5ee96a1cbd0415fc5.js",
-      "chunk.fbf5ee96a1cbd0415fc5.js.map"
+      "chunk.1aa896b7744b8a0d1d79.js",
+      "chunk.1aa896b7744b8a0d1d79.js.map"
     ],
     "vendors~app-account~app-checkout": [
-      "chunk.e94b10bb7c7ee11042f2.js",
-      "chunk.e94b10bb7c7ee11042f2.js.map"
+      "chunk.85c5e7bee8db4e2daf46.js",
+      "chunk.85c5e7bee8db4e2daf46.js.map"
     ],
     "vendors~app-cart~app-checkout": [
-      "chunk.bd3032e183c7f6ee39a6.js",
-      "chunk.bd3032e183c7f6ee39a6.js.map"
+      "chunk.70a67fd1c77b78320d99.js",
+      "chunk.70a67fd1c77b78320d99.js.map"
     ],
     "admin": [
-      "admin.68e8ed7f73d6e68777b6.js",
-      "admin.68e8ed7f73d6e68777b6.js.map"
+      "admin.d183a2a839f19c9d25ea.js",
+      "admin.d183a2a839f19c9d25ea.js.map"
     ],
     "app-account": [
-      "chunk.2032e9ca48556184cdfb.js",
-      "chunk.2032e9ca48556184cdfb.js.map"
+      "chunk.42e01bf03d858a0e4ae5.js",
+      "chunk.42e01bf03d858a0e4ae5.js.map"
     ],
     "app-cart": [
-      "chunk.68514d94128d4e09e7b7.js",
-      "chunk.68514d94128d4e09e7b7.js.map"
+      "chunk.0f96e073c5cd33edcf92.js",
+      "chunk.0f96e073c5cd33edcf92.js.map"
     ],
     "app-checkout": [
-      "chunk.68505063942be727fea4.js",
-      "chunk.68505063942be727fea4.js.map"
+      "chunk.8bdb338660bf93ef0a2b.js",
+      "chunk.8bdb338660bf93ef0a2b.js.map"
     ],
     "app-confirmation": [
-      "chunk.c3df0d64c5f6fedb78b5.js",
-      "chunk.c3df0d64c5f6fedb78b5.js.map"
+      "chunk.fa49ef43c2cb952f1e53.js",
+      "chunk.fa49ef43c2cb952f1e53.js.map"
     ],
     "app-order": [
-      "chunk.c472926db1616b6b836c.js",
-      "chunk.c472926db1616b6b836c.js.map"
+      "chunk.740d67d097e2fdb4d1d6.js",
+      "chunk.740d67d097e2fdb4d1d6.js.map"
     ],
     "checkout": [
-      "checkout.073855a6ec1bb9eae915.js",
-      "checkout.073855a6ec1bb9eae915.js.map"
+      "checkout.fda4835703182e2e6fbd.js",
+      "checkout.fda4835703182e2e6fbd.js.map"
     ],
     "storefront": [
       "storefront.6094a9b125650ee33031.css",
-      "storefront.549f9bc254369efb831e.js",
+      "storefront.f9b622e8f63384572002.js",
       "storefront.6094a9b125650ee33031.css.map",
-      "storefront.549f9bc254369efb831e.js.map"
+      "storefront.f9b622e8f63384572002.js.map"
     ]
   }
 }
