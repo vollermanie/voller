@@ -79,15 +79,6 @@
       ]
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "mobile_img": "/img/uploads/promocao-mobile_easy-resize.com.jpg",
-          "img": "/img/uploads/promocao-mobile_easy-resize.com.jpg"
-        }
-      ]
-    },
-    {
       "type": "category-retail",
       "enabled": true
     },
