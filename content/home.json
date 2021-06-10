@@ -28,10 +28,10 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/52.png"
-        },
-        {
-          "img": "/img/uploads/35.png"
+          "img": "/img/uploads/tarja-pedido-minimo-computador-redimencionado.jpg",
+          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado-redimencionado.jpg",
+          "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 10 PEÇAS!",
+          "link": ""
         }
       ]
     },
@@ -39,10 +39,12 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/tarja-pedido-minimo-computador-redimencionado.jpg",
-          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado-redimencionado.jpg",
-          "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 10 PEÇAS!",
-          "link": ""
+          "img": "/img/uploads/400x400-52.png",
+          "mobile_img": "/img/uploads/794x794-52.png"
+        },
+        {
+          "img": "/img/uploads/400x400-35.png",
+          "mobile_img": "/img/uploads/794x794-35.png"
         }
       ]
     },
