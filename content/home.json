@@ -9,8 +9,14 @@
         {
           "start": "2021-06-10T23:15:45.233Z",
           "end": "",
-          "img": "/img/uploads/tshirt-desktop.png",
-          "mobile_img": "/img/uploads/tshirt-mobile.png"
+          "img": "/img/uploads/roupa-feminina-segunda-opcao-desktop-sem-desconto_easy-resize.com.jpg",
+          "mobile_img": "/img/uploads/roupa-feminina-segunda-opcao-mobile-sem-desconto_easy-resize.com.jpg"
+        },
+        {
+          "start": "2021-06-10T23:42:09.399Z",
+          "end": "2021-06-10T23:42:09.490Z",
+          "img": "/img/uploads/envios-e-entregas-desktop_easy-resize.com.jpg",
+          "mobile_img": "/img/uploads/envios-e-entregas-mobile_easy-resize.com.jpg"
         }
       ]
     },
@@ -22,23 +28,6 @@
           "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado-redimencionado.jpg",
           "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 10 PEÇAS!",
           "link": ""
-        }
-      ]
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/400x400-52.png",
-          "mobile_img": "/img/uploads/794x794-52.png"
-        },
-        {
-          "img": "/img/uploads/400x400-22.png",
-          "mobile_img": "/img/uploads/794x794-22.png"
-        },
-        {
-          "img": "/img/uploads/400x400-35.png",
-          "mobile_img": "/img/uploads/794x794-35.png"
         }
       ]
     },
