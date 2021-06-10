@@ -7,20 +7,10 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2020-08-06T15:53:09.042Z",
+          "start": "2021-06-10T23:15:45.233Z",
           "end": "",
-          "img": "/img/uploads/roupa-feminina-segunda-opcao-desktop-sem-desconto_easy-resize.com.jpg",
-          "mobile_img": "/img/uploads/roupa-feminina-segunda-opcao-mobile-sem-desconto_easy-resize.com.jpg",
-          "link": "https://www.vollermanie.com.br/",
-          "alt": "conquiste sua independência financeira ou tenha uma renda extra, revenda nossas t-shirts"
-        },
-        {
-          "start": "2020-07-14T19:41:25.667Z",
-          "end": "",
-          "img": "/img/uploads/envios-e-entregas-desktop_easy-resize.com.jpg",
-          "link": "https://www.vollermanie.com.br/pages/entrega",
-          "alt": "Prazo de até 5 dias úteis para a postagem. Saiba Mais!",
-          "mobile_img": "/img/uploads/envios-e-entregas-mobile_easy-resize.com.jpg"
+          "img": "/img/uploads/tshirt-desktop.png",
+          "mobile_img": "/img/uploads/tshirt-mobile.png"
         }
       ]
     },
