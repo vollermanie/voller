@@ -1,5 +1,5 @@
 {
-  "meta_title": "Voller Manie | Roupa Feminina Atacado ",
+  "meta_title": "Voller Manie | T-shirt Atacado ",
   "meta_description": "Sua loja de Atacado de excelência no Brasil com as melhores ofertas com vestuário na moda e tendências.",
   "sections": [
     {
@@ -9,8 +9,8 @@
         {
           "start": "2021-06-10T23:15:45.233Z",
           "end": "",
-          "img": "/img/uploads/roupa-feminina-segunda-opcao-desktop-sem-desconto_easy-resize.com.jpg",
-          "mobile_img": "/img/uploads/roupa-feminina-segunda-opcao-mobile-sem-desconto_easy-resize.com.jpg"
+          "img": "/img/uploads/tshirt-desktop.png",
+          "mobile_img": "/img/uploads/tshirt-mobile.png"
         },
         {
           "start": "2021-06-10T23:42:09.399Z",
@@ -28,6 +28,23 @@
           "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado-redimencionado.jpg",
           "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 10 PEÇAS!",
           "link": ""
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/desktop-52.png",
+          "mobile_img": "/img/uploads/mobile-52.png"
+        },
+        {
+          "img": "/img/uploads/desktop-22.png",
+          "mobile_img": "/img/uploads/mobile-22.png"
+        },
+        {
+          "img": "/img/uploads/desktop-35.png",
+          "mobile_img": "/img/uploads/mobile-35.png"
         }
       ]
     },
@@ -53,9 +70,9 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/4figuros-computador_easy-resize.com.jpg",
-          "mobile_img": "/img/uploads/4figuras-mobile_easy-resize.com.jpg",
-          "alt": "Parcele em 2 vezes sem juros, compre no atacado a partir de 12 peças."
+          "img": "/img/uploads/4figuros-computador-3x-sem-juros.png",
+          "mobile_img": "/img/uploads/4figuras-mobile-3x-sem-juros.png",
+          "alt": "Parcele em 3 vezes sem juros, compre no atacado a partir de 10 peças."
         }
       ]
     },
