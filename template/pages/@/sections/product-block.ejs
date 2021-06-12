@@ -57,7 +57,29 @@
                   </strong>
                 </div>
               <% } %>
-
+                         
+                         <a href="javascript:;" data-toggle="modal" data-target="#modal-size-guide" style="font-size:1.1rem; color: #000;">
+                    Guia de tamanhos
+                  </a>
+                  <div class="modal modal-center fade" id="modal-size-guide" tabindex="-1" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <button id="close-mobile" type="button" class="close" data-dismiss="modal" style="display: none; padding: 7px">
+                          <span aria-hidden="true">x</span>
+                        </button>
+                        <div class="modal-header" style="display: flex;align-items: center; justify-content: space-between">
+                          <h3 class="modal-title">TABELA DE MEDIDAS (Aqui ficaria o título)</h3>
+                          <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">x</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/template/public/img/uploads/copia-de-feed-794x794-03.png" alt="Tabela de tamanhos">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
               <% if (_.state.variations && _.state.variations.length) { %>
                 <div data-slot="variations-info">
                   <!-- Custom info for products with variations, such as sizes table link -->
