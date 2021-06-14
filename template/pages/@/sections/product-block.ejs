@@ -57,8 +57,10 @@
                   </strong>
                 </div>
               <% } %>
-                         
-                  <a href="javascript:;" data-toggle="modal" data-target="#modal-size-guide" style="font-size:1.1rem; color: #000;">
+                  
+              <% if (_.state.variations && _.state.variations.length) { %>
+                <div data-slot="variations-info">
+                <a href="javascript:;" data-toggle="modal" data-target="#modal-size-guide" style="font-size:1.1rem; color: #000;">
                     Guia de tamanhos
                   </a>
                   <div class="modal modal-center fade" id="modal-size-guide" tabindex="-1" style="display: none;" aria-hidden="true">
@@ -79,9 +81,6 @@
                       </div>
                     </div>
                   </div>
-                  
-              <% if (_.state.variations && _.state.variations.length) { %>
-                <div data-slot="variations-info">
                   <!-- Custom info for products with variations, such as sizes table link -->
                   <p>
                      💕 Depois da compra enviamos todas as imagens para serem usadas na sua revenda e divulgação das peças 💕                 
