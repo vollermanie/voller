@@ -24,8 +24,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/tarja-pedido-minimo-computador-redimencionado.jpg",
-          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado-redimencionado.jpg",
+          "img": "/img/uploads/tarja-pedido-minimo-computador-15-pecas.png",
+          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-minimo-15-pecas.png",
           "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 10 PEÇAS!",
           "link": ""
         }
@@ -70,9 +70,9 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/4figuros-computador-3x-sem-juros.png",
-          "mobile_img": "/img/uploads/4figuras-mobile-3x-sem-juros.png",
-          "alt": "Parcele em 3 vezes sem juros, compre no atacado a partir de 10 peças."
+          "img": "/img/uploads/4figuras-desktop-15-pecas-3x-sem-juros.png",
+          "mobile_img": "/img/uploads/4figuras-mobile-15-pecas-3x-sem-juros.png",
+          "alt": "Parcele em 3 vezes sem juros, compre no atacado a partir de 15 peças."
         }
       ]
     },
