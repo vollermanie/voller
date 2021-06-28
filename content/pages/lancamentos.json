@@ -4,7 +4,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<div class=\"extra-page\" id=\"lancamentos\" >\n    <section class=\"md-content mb-5 pt-1 pt-sm-2 pt-lg-3\">\n        <div class=\"container\">\n            <p><img src=\"/img/uploads/logo_redefinida.png\" alt=\"\"></p>\n            <p>Site Fechado Para Nova Coleção de T-Shirts</p>\n                      <p>Voltamos semana que vem com GRANDES novidades💛</p>\n                      <p>Acompanhe em nossas Redes Sociais</p>\n                    \n\n         \n\n\n        </div>\n    </section>\n</div>"
+      "html": "<div class=\"extra-page\" id=\"lancamentos\" >\n    <section class=\"md-content mb-5 pt-1 pt-sm-2 pt-lg-3\">\n        <div class=\"container\">\n            <p><img src=\"/img/uploads/logo_redefinida.png\" alt=\"\"></p>\n            <p>Site Fechado Para Nova Coleção de T-Shirts</p>\n                      <p>O site será liberado hoje as 18h 💛</p>\n                      <p>Não perca!!</p>\n                    \n\n         \n\n\n        </div>\n    </section>\n</div>"
     }
   ]
 }
