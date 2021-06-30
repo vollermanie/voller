@@ -1,6 +1,6 @@
 {
   "marketing_stripe": {
-    "text": "PEDIDO MÍNIMO 15 PEÇAS VARIADAS!  💛",
+    "text": "PEDIDO MÍNIMO 10 PEÇAS VARIADAS!  💛",
     "link": "/index"
   },
   "contacts_stripe": {
@@ -10,7 +10,7 @@
         "link": "/index"
       },
       {
-        "title": "Parcele em até 3 vezes Sem Juros no Cartão!",
+        "title": "Parcele em até 2 vezes Sem Juros no Cartão!",
         "link": "/index"
       },
       {
