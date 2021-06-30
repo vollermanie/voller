@@ -8,9 +8,9 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/tarja-pedido-minimo-computador-15-pecas.png",
-          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-minimo-15-pecas.png",
-          "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 15 PEÇAS!"
+          "img": "/img/uploads/tarja-pedido-minimo-computador-comprimento-maior.jpg",
+          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado-redimencionado.jpg",
+          "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 10 PEÇAS!"
         }
       ]
     },
@@ -20,7 +20,7 @@
     },
     {
       "type": "custom-content",
-      "markdown": "<!--StartFragment-->\n\n<!--StartFragment-->\n\n⚠️  **PEDIDO MÍNIMO 15 PEÇAS VARIADAS** - Somente Atacado\n\n\\- Todas as peças são embaladas individualmente, prontas para revenda\n\n•  **ATENÇÃO:** Só fazemos trocas por defeito, se atente a descrição de cada produto.\n\n<!--EndFragment-->"
+      "markdown": "<!--StartFragment-->\n\n<!--StartFragment-->\n\n⚠️  **PEDIDO MÍNIMO 10 PEÇAS VARIADAS** - Somente Atacado\n\n\\- Todas as peças são embaladas individualmente, prontas para revenda\n\n•  **ATENÇÃO:** Só fazemos trocas por defeito, se atente a descrição de cada produto.\n\n<!--EndFragment-->"
     },
     {
       "type": "product-description",
