@@ -9,8 +9,8 @@
         {
           "start": "2021-06-10T23:15:45.233Z",
           "end": "",
-          "img": "/img/uploads/2vz-sem-juros-15-pecas-desktop.png",
-          "mobile_img": "/img/uploads/mobile-2x-sem-juros-15-pecas.png"
+          "img": "/img/uploads/2vz-sem-juros-10-pecas-desktop.png",
+          "mobile_img": "/img/uploads/mobile-2x-sem-juros-10-pecas.png"
         },
         {
           "start": "2021-06-10T23:42:09.399Z",
@@ -24,8 +24,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/tarja-pedido-minimo-computador-15-pecas.png",
-          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-minimo-15-pecas.png",
+          "img": "/img/uploads/tarja-pedido-minimo-computador-comprimento-maior.jpg",
+          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado-redimencionado.jpg",
           "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 10 PEÇAS!",
           "link": ""
         }
@@ -70,8 +70,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/4figuras-desktop-15-pecas-3x-sem-juros.png",
-          "mobile_img": "/img/uploads/4figuras-mobile-15-pecas-3x-sem-juros.png",
+          "img": "/img/uploads/4figuros-computador_easy-resize.com.jpg",
+          "mobile_img": "/img/uploads/4figuras-mobile.jpg",
           "alt": "Parcele em 3 vezes sem juros, compre no atacado a partir de 15 peças."
         }
       ]
