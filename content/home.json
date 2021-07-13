@@ -71,16 +71,6 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/4figuros-computador_easy-resize.com.jpg",
-          "mobile_img": "/img/uploads/4figuras-mobile.jpg",
-          "alt": "Parcele em 2 vezes sem juros, compre no atacado a partir de 10 peças."
-        }
-      ]
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
           "img": "/img/uploads/desktop.jpg",
           "mobile_img": "/img/uploads/ref2-celular-branco.jpg"
         }
