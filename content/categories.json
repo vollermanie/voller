@@ -79,6 +79,15 @@
       ]
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "mobile_img": "/img/uploads/banner-grid-mobile-794x794-03-1-.png",
+          "img": "/img/uploads/tarja-pedido-minimo-computador-redimencionado.jpg"
+        }
+      ]
+    },
+    {
       "type": "category-retail",
       "enabled": true,
       "sort": "news"
