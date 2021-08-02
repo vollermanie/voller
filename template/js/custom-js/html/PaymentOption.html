@@ -44,21 +44,6 @@
             {{ i19onFreight }}
           </template>
         </span>
-
-        <span
-        v-if="price"
-        class="payment-option-full"
-        >
-            <template v-if="price">
-            {{ priceAll }}%
-            </template>
-            <span
-            v-else
-            class="payment-option__total"
-            >
-            {{ formatMoney(priceAll) }}
-            </span>
-        </span>
   
         <ul
           v-if="installmentOptions"
