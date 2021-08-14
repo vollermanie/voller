@@ -35,12 +35,12 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/banner-grid-desktop-400x400-03.png",
-          "mobile_img": "/img/uploads/banner-grid-mobile-794x794-03.png"
-        },
-        {
           "img": "/img/uploads/400-desktop.png",
           "mobile_img": "/img/uploads/794-mobile.png"
+        },
+        {
+          "img": "/img/uploads/banner-grid-desktop-400x400-03.png",
+          "mobile_img": "/img/uploads/banner-grid-mobile-794x794-03.png"
         },
         {
           "img": "/img/uploads/banner-grid-desktop-400x400-03-1-.png",
