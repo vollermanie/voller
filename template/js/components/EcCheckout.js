@@ -1,331 +1,269 @@
-import {
-  i19addToCart,
-  // i19additionalComments,
-  i19buyAlsoMsg,
-  i19checkout,
-  // i19orderNotesInputMsg,
-  i19selectedOffers
-} from '@ecomplus/i18n'
-
-import {
-  i18n,
-  name,
-  formatMoney,
-  price,
-  img
-} from '@ecomplus/utils'
-
+import { i19paymentError, i19paymentErrorMsg } from '@ecomplus/i18n'
+import { i18n } from '@ecomplus/utils'
+import { store } from '@ecomplus/client'
 import ecomCart from '@ecomplus/shopping-cart'
-import baseModulesRequestData from '@ecomplus/storefront-app/src/lib/base-modules-request-data'
-import DiscountApplier from '#components/DiscountApplier.vue'
-import LoginBlock from '#components/LoginBlock.vue'
-import ShippingCalculator from '#components/ShippingCalculator.vue'
-import ShippingLine from '#components/ShippingLine.vue'
-import RecommendedItems from '#components/RecommendedItems.vue'
-import PaymentMethods from '@ecomplus/storefront-app/src/components/PaymentMethods.vue'
-import AccountForm from '#components/AccountForm.vue'
-import AccountAddresses from '#components/AccountAddresses.vue'
-import EcSummary from '@ecomplus/storefront-app/src/components/EcSummary.vue'
-
-import {
-  Bag,
-  BackToCart,
-  Buyer,
-  ChangeShippingMethod,
-  ContactPhone,
-  Continue,
-  Delivery,
-  Discount,
-  DocNumber,
-  Logout,
-  MyAccount,
-  Payment,
-  ProceedToPayment,
-  RegisterToBuy,
-  Summary
-} from '@ecomplus/storefront-app/src/lib/i18n'
+import ecomPassport from '@ecomplus/passport-client'
+import Vue from 'vue'
+import { mapGetters, mapMutations, mapActions } from 'vuex'
+import { upsertCart } from './../../lib/sync-cart-to-api'
+import EcCheckout from './../../components/EcCheckout.vue'
 
 export default {
-  name: 'EcCheckout',
+  name: 'checkout',
 
   components: {
-    DiscountApplier,
-    LoginBlock,
-    ShippingLine,
-    ShippingCalculator,
-    RecommendedItems,
-    PaymentMethods,
-    AccountForm,
-    AccountAddresses,
-    EcSummary
-  },
-
-  props: {
-    mergeDictionary: {
-      type: Object,
-      default: () => {}
-    },
-    cartUrl: {
-      type: String,
-      default: '/app/#/cart'
-    },
-    amount: {
-      type: Object,
-      default: () => {}
-    },
-    customer: {
-      type: Object,
-      default: () => {}
-    },
-    shippingZipCode: {
-      type: String
-    },
-    checkoutStep: {
-      type: Number,
-      default: 1
-    },
-    shippingService: {
-      type: Object
-    },
-    paymentGateway: {
-      type: Object
-    },
-    ecomCart: {
-      type: Object,
-      default: () => ecomCart
-    },
-    discountCoupon: String,
-    notes: String
+    EcCheckout
   },
 
   data () {
     return {
-      checkoutAppId: 1,
-      toCheckoutStep: this.checkoutStep,
-      customerEmail: this.customer.main_email,
-      isUserIdentified: Boolean(this.customer.main_email),
-      editAccount: false,
-      editShippingService: !this.shippingService,
-      localZipCode: this.shippingZipCode,
-      hasMoreOffers: false
+      updateInterval: null,
+      ecomPassport: null,
+      checkoutStep: 0
     }
   },
 
   computed: {
-    i19addToCart: () => i18n(i19addToCart),
-    i19additionalComments: () => 'Comentários adicionais',
-    i19buyAlsoMsg: () => i18n(i19buyAlsoMsg),
-    i19checkout: () => i18n(i19checkout),
-    i19orderNotesInputMsg: () => 'Campo opcional para informações customizadas ou anotações do pedido.',
-    i19selectedOffers: () => i18n(i19selectedOffers),
-    modulesPayload: () => baseModulesRequestData,
-
-    dictionary () {
-      return {
-        Bag,
-        BackToCart,
-        Buyer,
-        ChangeShippingMethod,
-        ContactPhone,
-        Continue,
-        Delivery,
-        Discount,
-        DocNumber,
-        Logout,
-        MyAccount,
-        Payment,
-        ProceedToPayment,
-        RegisterToBuy,
-        Summary,
-        ...this.mergeDictionary
-      }
-    },
+    ...mapGetters([
+      'amount',
+      'shippingService',
+      'shippingZipCode',
+      'selectedAddress'
+    ]),
 
     cart () {
-      return this.ecomCart.data
+      return ecomCart.data
     },
 
-    hasBuyerInfo () {
-      const { customer } = this
-      console.log('buyer:', customer)
-      return this.customerEmail &&
-        customer.name && customer.name.given_name && customer.name.family_name &&
-        customer.birth_date && customer.birth_date.day &&
-        customer.registry_type && customer.doc_number &&
-        customer.phones && customer.phones.length
+    checkoutMode () {
+      const { mode } = this.$route.params
+      return mode ? mode.toLowerCase() : null
     },
 
-    localCustomer: {
+    isLpCheckout () {
+      return this.checkoutMode === 'lp'
+    },
+
+    isGuestCheckout () {
+      return this.isLpCheckout || this.checkoutMode === 'guest'
+    },
+
+    customer: {
       get () {
-        return this.customer
+        return this.$store.getters.customer
       },
       set (customer) {
-        this.$emit('update:customer', customer)
-        console.log('update:customer', customer)
-        this.$nextTick(() => {
-          this.editAccount = false
-          console.log('Set `editAccount` false')
-          setTimeout(() => {
-            console.log('`hasBuyerInfo`', this.hasBuyerInfo)
-          }, 1000)
-        })
+        this.setCustomer(customer)
+        if (customer._id) {
+          const { ecomPassport } = this
+          if (ecomPassport && ecomPassport.checkAuthorization()) {
+            this.saveCustomer({ ecomPassport })
+          }
+        }
       }
     },
 
-    localDiscountCoupon: {
+    discountCoupon: {
       get () {
-        return this.discountCoupon
+        return this.$store.getters.discountCoupon
       },
       set (couponCode) {
-        this.$emit('update:discountCoupon', couponCode)
+        this.setDiscountCoupon(couponCode)
       }
     },
 
-    localNotes: {
+    shippingService: {
       get () {
-        return this.notes
+        return this.$store.getters.shippingService
+      },
+      set (service) {
+        this.selectShippingService(service)
+      }
+    },
+
+    paymentGateway: {
+      get () {
+        return this.$store.getters.paymentGateway
+      },
+      set (gateway) {
+        this.selectPaymentGateway(gateway)
+      }
+    },
+
+    notes: {
+      get () {
+        return this.$store.getters.notes
       },
       set (notes) {
-        this.$emit('update:notes', notes)
+        this.setNotes(notes)
       }
-    },
-
-    shownCheckoutStep () {
-      if (!this.hasBuyerInfo || this.editAccount) {
-        console.log('`shownCheckoutStep` stills 0')
-        return 0
-      } else {
-        console.log('`shownCheckoutStep`', this.toCheckoutStep)
-        return this.toCheckoutStep
-      }
-    },
-
-    shippingAddress () {
-      const { addresses } = this.customer
-      return addresses && addresses.find(addr => {
-        return Boolean(addr.default && addr.street && addr.city && addr.province_code)
-      })
-    },
-
-    enabledCheckoutStep () {
-      return !this.hasBuyerInfo ? 0
-        : this.shippingAddress && this.shippingService ? 2 : 1
-    },
-
-    paymentsListKey () {
-      let key = 'pay'
-      if (this.localDiscountCoupon) {
-        key += `-${this.localDiscountCoupon}`
-      }
-      ;['freight', 'subtotal'].forEach(amountField => {
-        if (this.amount[amountField] > 0) {
-          key += `-${this.amount[amountField]}`
-        }
-      })
-      return key
     }
   },
 
   methods: {
-    name,
-    price,
-    formatMoney,
+    ...mapMutations([
+      'triggerLoading',
+      'setFluidPage',
+      'setDiscountCoupon',
+      'setDiscountRule',
+      'setNotes',
+      'selectShippingService',
+      'selectPaymentGateway',
+      'setCustomer',
+      'selectAddress',
+      'addOrder'
+    ]),
 
-    img (item) {
-      return img(item, null, 'small')
-    },
-
-    i18n (label) {
-      return i18n(this.dictionary[label])
-    },
+    ...mapActions([
+      'fetchCartItems',
+      'fetchCustomer',
+      'saveCustomer',
+      'sendCheckout'
+    ]),
 
     login (ecomPassport) {
-      if (ecomPassport.checkLogin()) {
-        this.customerEmail = ecomPassport.getCustomer().main_email
-        this.$emit('login', ecomPassport)
-      }
+      this.ecomPassport = ecomPassport
+      this.triggerLoading(true)
+      this.fetchCustomer({ ecomPassport })
+        .finally(() => this.triggerLoading(false))
     },
 
-    autoMoveStep () {
-      if ('activeElement' in document) {
-        document.activeElement.blur()
-      }
-      this.$nextTick(() => {
-        if (document.body.offsetWidth >= 768) {
-          this.toCheckoutStep = this.enabledCheckoutStep
-        } else if (this.enabledCheckoutStep && !(this.toCheckoutStep > 1)) {
-          this.toCheckoutStep = 1
-        }
-        console.log('`this.toCheckoutStep`', this.toCheckoutStep)
-      })
-    },
-
-    updateZipCode () {
-      if (this.shippingAddress) {
-        this.localZipCode = this.shippingAddress.zip
-      }
-    },
-
-    selectAddress (addressId) {
-      this.$emit('addressSelected', addressId)
-      this.updateZipCode()
-    },
-
-    goToTop () {
-      this.$nextTick(() => {
-        window.scroll({
-          top: this.$el.offsetTop - 15,
-          behavior: 'smooth'
+    checkout (transaction) {
+      const { customer } = this
+      this.triggerLoading(true)
+      this.sendCheckout({ customer, transaction })
+        .then(order => {
+          this.addOrder(order)
+          this.$router.push({
+            name: 'confirmation',
+            params: {
+              id: order._id,
+              number: order.number
+            }
+          })
         })
-      })
-    },
-
-    goToOffers () {
-      window.scroll({
-        top: this.$refs.offers.$el.offsetTop - 15,
-        behavior: 'smooth'
-      })
-    },
-
-    selectPaymentGateway (gateway) {
-      this.$emit('update:paymentGateway', gateway)
-      if (this.checkoutStep === 2) {
-        this.goToTop()
-      }
+        .catch(() => {
+          this.$toast({
+            title: i18n(i19paymentError),
+            body: i18n(i19paymentErrorMsg),
+            variant: 'danger'
+          })
+        })
+        .finally(() => this.triggerLoading(false))
     }
   },
 
   watch: {
-    customerEmail (email) {
-      if (email) {
-        this.$emit('update:customer', { ...this.customer, main_email: email })
-        this.isUserIdentified = true
-        this.editAccount = true
+    checkoutStep (stepNumber, lastStep) {
+      if (stepNumber && !lastStep) {
+        this.setFluidPage(true)
       }
-    },
-
-    localZipCode () {
-      this.editShippingService = true
-    },
-
-    toCheckoutStep (stepNumber) {
-      this.$emit('update:checkoutStep', stepNumber)
-      this.goToTop()
-    },
-
-    enabledCheckoutStep () {
-      this.autoMoveStep()
     }
   },
 
   created () {
-    this.autoMoveStep()
-    this.updateZipCode()
-    this.ecomCart.on('addItem', () => {
-      this.checkoutAppId++
-      this.$nextTick(() => {
-        this.goToTop()
+    if (!this.isLpCheckout) {
+      const update = items => this.fetchCartItems({ removeOnError: true, items })
+      const fetchAddedItem = ({ item }) => {
+        update([item])
+      }
+      ecomCart.on('addItem', fetchAddedItem)
+      const checkCart = ({ data }) => {
+        if (!data.items.length) {
+          this.$router.push({
+            name: 'cart'
+          })
+        }
+      }
+      this.updateInterval = setInterval(update, 120000)
+      this.triggerLoading(true)
+      update()
+        .then(() => {
+          if (!ecomCart.data.flags) {
+            ecomCart.data.flags = []
+          }
+          if (ecomCart.data.flags.indexOf('open-checkout') === -1) {
+            ecomCart.data.flags.push('open-checkout')
+          }
+          const tryUpsertCart = () => {
+            if (ecomPassport.checkAuthorization()) {
+              upsertCart()
+            } else {
+              ecomPassport.once('login', tryUpsertCart)
+            }
+          }
+          setTimeout(tryUpsertCart, 300)
+        })
+        .finally(() => {
+          this.triggerLoading(false)
+          checkCart(ecomCart)
+          ecomCart.on('change', checkCart)
+        })
+      this.$once('hook:beforeDestroy', () => {
+        ecomCart.off('addItem', fetchAddedItem)
+        ecomCart.off('change', checkCart)
       })
-    })
+    }
+  },
+
+  mounted () {
+    if (this.isLpCheckout) {
+      const productId = this.$route.params.product
+      if (productId) {
+        this.triggerLoading(true)
+        const fetchProduct = (isRetry = false) => {
+          store({
+            url: `/products/${productId}.json`,
+            axiosConfig: {
+              timeout: 6000
+            }
+          })
+            .then(({ data }) => {
+              ecomCart.clear()
+              let canAddToCart = false
+              const selectFields = ['variations', 'customizations', 'kit_composition']
+              for (let i = 0; i < selectFields.length; i++) {
+                const selectOptions = data[selectFields[i]]
+                if (selectOptions && selectOptions.length) {
+                  canAddToCart = true
+                  break
+                }
+              }
+              if (!canAddToCart) {
+                ecomCart.addProduct(data)
+              }
+              return import('#components/TheProduct.vue').then(productView => {
+                this.setFluidPage(true)
+                new Vue({
+                  render: h => h(productView.default, {
+                    props: {
+                      product: data,
+                      headingTag: 'h3',
+                      galleryColClassName: 'col-12 order-last mt-3',
+                      canAddToCart,
+                      hasBuyButton: canAddToCart,
+                      isQuickview: true
+                    }
+                  })
+                }).$mount(this.$refs.product)
+              })
+            })
+            .catch(err => {
+              console.error(err)
+              if (!isRetry) {
+                setTimeout(() => fetchProduct(true), 800)
+              }
+            })
+            .finally(() => this.triggerLoading(false))
+        }
+        fetchProduct()
+      }
+    }
+  },
+
+  destroyed () {
+    this.selectPaymentGateway(null)
+    this.setFluidPage(false)
+    clearInterval(this.updateInterval)
   }
 }
