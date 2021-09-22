@@ -5,8 +5,8 @@ import ecomCart from '@ecomplus/shopping-cart'
 import ecomPassport from '@ecomplus/passport-client'
 import Vue from 'vue'
 import { mapGetters, mapMutations, mapActions } from 'vuex'
-import { upsertCart } from './../../lib/sync-cart-to-api'
-import EcCheckout from './../../components/EcCheckout.vue'
+import { upsertCart } from '@ecomplus/storefront-app/src/lib/sync-cart-to-api'
+import EcCheckout from '@ecomplus/storefront-app/src/components/EcCheckout.vue'
 
 export default {
   name: 'checkout',
