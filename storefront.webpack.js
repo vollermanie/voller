@@ -6,8 +6,8 @@ module.exports = () => ({
   resolve: {
     alias: {
       './html/PaymentOption.html': path.resolve(__dirname, 'template/js/custom-js/html/PaymentOption.html'),
-      './js/PaymentOption.js': path.resolve(__dirname, 'template/js/custom-js/js/PaymentOption.js'),
-      './js/Checkout.js': path.resolve(__dirname, 'template/js/views/js/Checkout.js')
+      './js/PaymentOption.js': path.resolve(__dirname, 'template/js/custom-js/js/PaymentOption.js')
+      //'./js/Checkout.js': path.resolve(__dirname, 'template/js/views/js/Checkout.js')
     }
   }
 })
