@@ -45,16 +45,21 @@
       ]
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "views"
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 24,
+      "page": 1,
+      "collection_id": "6173008d9bb4ce40f93b03c2:categories:CONJUNTOS, MACAQUINHOS E VESTIDOS:/conjuntos-macaquinhos-e-vestidos",
+      "title": "Todos os Conjuntos, Vestidos e Macaquinhos 👗✨ (Clique Aqui e Veja Mais)",
+      "link": "https://www.vollermanie.com.br/t-shirts-ver-mais",
+      "sort": "sales"
     },
     {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": "5f0e1eb314ff772fde8010c3:categories:T-SHIRTS:/t-shirts-ver-mais",
-      "sort": "views",
-      "title": "Todas as Nossas T-Shirts 🌈 (Clique Aqui e Veja Mais)",
+      "sort": "sales",
+      "title": "Todas as T-Shirts 🌈 (Clique Aqui e Veja Mais)",
       "link": "https://www.vollermanie.com.br/t-shirts-ver-mais",
       "page": 1,
       "limit": 24
@@ -66,18 +71,8 @@
       "page": 1,
       "title": "Novidades e Reposições 🎈 (Clique Aqui e Veja Mais)",
       "link": "https://www.vollermanie.com.br/t-shirts-ver-mais",
-      "collection_id": "5f0e1eb314ff772fde8010c3:categories:T-SHIRTS:/t-shirts-ver-mais",
+      "collection_id": null,
       "sort": "news"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 24,
-      "page": 1,
-      "collection_id": "5f0e1eb314ff772fde8010c3:categories:T-SHIRTS:/t-shirts-ver-mais",
-      "title": "Uma Explosão de Lindezas ✨ (Clique Aqui e Veja Mais)",
-      "link": "https://www.vollermanie.com.br/t-shirts-ver-mais",
-      "sort": "sales"
     },
     {
       "type": "banners-grid",
