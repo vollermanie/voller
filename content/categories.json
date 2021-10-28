@@ -104,6 +104,10 @@
           "mobile_img": "/img/uploads/4figuras-mobile-10-pecas-12x-no-cartao.png"
         }
       ]
+    },
+    {
+      "type": "document-banner",
+      "enabled": true
     }
   ]
 }
