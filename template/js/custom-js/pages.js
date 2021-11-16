@@ -6,7 +6,7 @@ window.storefront.on('widget:@ecomplus/widget-minicart', function () {
     const buy = document.querySelector('.product__buy')
     const lessProduct = document.querySelectorAll('.product__short-stock')
     if (lessProduct.length) {
-      lessProduct.after(infoChange)
+      lessProduct[0].after(infoChange)
     } else {
       buy.after(infoChange)
     }
