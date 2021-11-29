@@ -41,3 +41,10 @@ display: none
   border: var(--border-width) solid var(--border-color);
   padding: 0px;
 }
+.checkout__col .payment .list-group {
+  display: flex;
+}
+.payment__gateway--1251[data-label="Pagar com Pix "] {
+  order: -1;
+  border-top: 1px solid
+}
