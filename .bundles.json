@@ -1,27 +1,27 @@
 {
   "assetsByChunkName": {
-    "vendors~app-account~app-checkout~app-confirmation~app-order": "chunk.12f4938fe44fb14562b3.js",
-    "vendors~app-account~app-confirmation~app-order": "chunk.c4c9a7ef5c071c7f3662.js",
-    "vendors~app-account~app-checkout": "chunk.97bb526cfd9bfda18148.js",
-    "vendors~app-cart~app-checkout": "chunk.6c6555563f0ab89a6a6d.js",
+    "vendors~app-account~app-checkout~app-confirmation~app-order": "chunk.0eabbe0e3730f2c29264.js",
+    "vendors~app-account~app-confirmation~app-order": "chunk.5d7ef3d3852049ced174.js",
+    "vendors~app-account~app-checkout": "chunk.c6f212e95dc2a4eeed0d.js",
+    "vendors~app-cart~app-checkout": "chunk.8f303994294ad37450e2.js",
     "admin": [
-      "admin.0d50c3f4455a37391fb8.js",
-      "admin.0d50c3f4455a37391fb8.js.map"
+      "admin.0506eb7857c3b196a8d6.js",
+      "admin.0506eb7857c3b196a8d6.js.map"
     ],
-    "app-account": "chunk.ac18a8228ab2a43a19df.js",
-    "app-checkout": "chunk.0472a3f80aac5d262be8.js",
-    "app-confirmation": "chunk.08b8bf8189610b0a9ad5.js",
-    "app-order": "chunk.fcff3f34c211e05f5a9f.js",
+    "app-account": "chunk.87aaded11c326fe93354.js",
+    "app-checkout": "chunk.5e2d16cbe29e637186ea.js",
+    "app-confirmation": "chunk.1854066b85523c1c33d3.js",
+    "app-order": "chunk.5e98b41496b575da8fd3.js",
     "checkout": [
-      "checkout.660b2427511fbdd80b93.js",
-      "checkout.660b2427511fbdd80b93.js.map"
+      "checkout.e67b8fe9c295c5b1feab.js",
+      "checkout.e67b8fe9c295c5b1feab.js.map"
     ],
     "storefront": [
-      "storefront.b3b978b01aefc3be002a.css",
-      "storefront.1cb33ea653df9b9f77cf.js",
-      "storefront.b3b978b01aefc3be002a.css.map",
-      "storefront.1cb33ea653df9b9f77cf.js.map"
+      "storefront.fa481d687f1fe030a8c5.css",
+      "storefront.4a8c8ee1c3c77c905be0.js",
+      "storefront.fa481d687f1fe030a8c5.css.map",
+      "storefront.4a8c8ee1c3c77c905be0.js.map"
     ],
-    "vendors~app-cart": "chunk.96b69f10ee58920bae63.js"
+    "vendors~app-cart": "chunk.7bee0f51ade3eb3312ba.js"
   }
 }
