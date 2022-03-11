@@ -26,7 +26,13 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/kits-de-relogio?Kits de Relógio",
+      "/conjuntos?Conjuntos",
+      "/vestidos-e-macaquinhos?Vestidos e Macaquinhos",
+      "/conjuntos-macaquinhos-e-vestidos?TODOS os Conjuntos, Vestidos e Macaquinhos",
+      "/t-shirts-ver-mais?T-shirt's"
+    ],
     "random": 11,
     "full_width": true
   },
