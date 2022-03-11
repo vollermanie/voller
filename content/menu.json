@@ -1,5 +1,12 @@
 {
-  "sort_categories": [],
+  "sort_categories": [
+    "kits-de-relogio",
+    "conjuntos",
+    "vestidos-e-macaquinhos",
+    "conjuntos-macaquinhos-e-vestidos",
+    "t-shirts-ver-mais"
+  ],
   "phone_wpp": true,
-  "socials": true
+  "socials": true,
+  "alphabetical_order": true
 }
