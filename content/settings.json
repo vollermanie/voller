@@ -6,6 +6,7 @@
     "bootswatch": "_",
     "custom": "_"
   },
+  "repository": "ecomplus-stores/voller",
   "bg_color": "#ffffff",
   "logo": "/img/uploads/logopageprincipal.webp",
   "name": "Voller Manie",
