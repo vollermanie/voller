@@ -14,61 +14,6 @@
       ]
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "start": "2020-12-01T18:14:50.409Z",
-          "end": "",
-          "img": "/img/uploads/computador-novos.jpg",
-          "mobile_img": "/img/uploads/mobile-7.8.jpg",
-          "full_width": false
-        },
-        {
-          "img": "/img/uploads/computador-3.4.5.6.jpg",
-          "start": "2020-12-01T18:23:25.896Z",
-          "end": "",
-          "mobile_img": "/img/uploads/mobile-5.6.jpg",
-          "full_width": false
-        },
-        {
-          "start": "2021-01-11T21:51:41.846Z",
-          "end": "",
-          "img": "/img/uploads/dezembro-computador-1.jpg",
-          "mobile_img": "/img/uploads/dezembro-mobile-1.jpg",
-          "full_width": false
-        },
-        {
-          "start": "2021-01-11T21:58:26.892Z",
-          "end": "",
-          "img": "/img/uploads/dezembro-computador-2.jpg",
-          "mobile_img": "/img/uploads/dezembro-mobile-2.jpg",
-          "full_width": false
-        },
-        {
-          "start": "2021-01-11T21:58:25.195Z",
-          "end": "2021-01-11T21:58:25.276Z",
-          "img": "/img/uploads/computador-3out.4st.1.2.jpg",
-          "mobile_img": "/img/uploads/mobile-3.4.jpg",
-          "full_width": false
-        },
-        {
-          "start": "2020-12-01T19:05:23.481Z",
-          "end": "",
-          "img": "/img/uploads/computador-4out.1.2.3.jpg",
-          "mobile_img": "/img/uploads/mobile-2.3.jpg",
-          "full_width": false
-        },
-        {
-          "img": "/img/uploads/computador-8a.9a.1.2.jpg",
-          "start": "2021-01-11T21:58:22.907Z",
-          "end": "2021-01-11T21:58:22.978Z",
-          "mobile_img": "/img/uploads/mobile-1.2.jpg",
-          "full_width": false
-        }
-      ]
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
