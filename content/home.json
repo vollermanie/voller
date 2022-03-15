@@ -3,6 +3,11 @@
   "meta_description": "Sua loja de Atacado de excelência no Brasil com as melhores ofertas com vestuário na moda e tendências.",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -74,6 +79,11 @@
           "mobile_img": "/img/uploads/ref2-celular-branco.jpg"
         }
       ]
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false
     }
   ]
 }
