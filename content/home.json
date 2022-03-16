@@ -3,6 +3,19 @@
   "meta_description": "Sua loja de Atacado de excelência no Brasil com as melhores ofertas com vestuário na moda e tendências.",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "2022-03-16T04:49:56.587Z",
+          "end": "",
+          "img": "/img/uploads/00010.png",
+          "mobile_img": "/img/uploads/0009.png"
+        }
+      ]
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
