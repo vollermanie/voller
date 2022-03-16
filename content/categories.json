@@ -8,13 +8,7 @@
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
-      "slides": [
-        {
-          "start": "2022-03-16T06:55:52.088Z",
-          "end": "2022-03-16T06:55:52.123Z",
-          "img": "/img/uploads/1616-px-468-px-.png"
-        }
-      ]
+      "slides": []
     },
     {
       "type": "category-retail",
