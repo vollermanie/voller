@@ -5,30 +5,6 @@
       "enabled": true
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/desktop.jpg",
-          "mobile_img": "/img/uploads/ref2-celular-branco.jpg"
-        }
-      ]
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/tarja-pedido-minimo-computador-redimencionado.jpg",
-          "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO 10 PEÇAS!",
-          "mobile_img": "/img/uploads/tarja-pedido-minimo-mobile-cortado-redimencionado.jpg"
-        }
-      ]
-    },
-    {
       "type": "category-retail",
       "enabled": true,
       "sort": "news"
@@ -41,8 +17,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/4figuras-desktop-10-pecas-12-no-cartao.png",
-          "mobile_img": "/img/uploads/4figuras-mobile-10-pecas-12x-no-cartao.png"
+          "img": "/img/uploads/0001.png",
+          "mobile_img": "/img/uploads/0002.png"
         }
       ]
     },
