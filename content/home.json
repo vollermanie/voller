@@ -1,6 +1,6 @@
 {
   "meta_title": "Voller Manie | Roupa Feminina Atacado ",
-  "meta_description": "Sua loja de Atacado de excelência no Brasil com as melhores ofertas com vestuário na moda e tendências.",
+  "meta_description": "Sua loja de Atacado de excelência no Brasil com as melhores ofertas roupas femininas, acessórios e tendências.",
   "sections": [
     {
       "type": "banner-slider",
@@ -45,7 +45,7 @@
       "limit": 24,
       "page": 1,
       "sort": "sales",
-      "title": "Kits Femininos Básicos (à partir de R$ 23,90)  🌻",
+      "title": "Kits Femininos Básicos (à partir de R$ 23,90)  🌻 (Clique Aqui e Veja Mais)",
       "link": "https://www.vollermanie.com.br/kits-femininos-basico",
       "collection_id": "62215cee7963422eee2bf287:categories:Kits Femininos Basico:/kits-femininos-basico"
     },
@@ -55,7 +55,7 @@
       "limit": 24,
       "page": 1,
       "sort": "sales",
-      "title": "Kits Femininos De Luxo (à partir de R$ 26,90)  🌻",
+      "title": "Kits Femininos De Luxo (à partir de R$ 26,90) 😍 (Clique Aqui e Veja Mais)",
       "link": "https://www.vollermanie.com.br/kits-femininos-de-luxo",
       "collection_id": "62240e477963422eee307534:categories:Kits Femininos De Luxo:/kits-femininos-de-luxo"
     },
@@ -88,25 +88,6 @@
       "link": "https://www.vollermanie.com.br/t-shirts-ver-mais",
       "page": 1,
       "limit": 24
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 24,
-      "page": 1,
-      "title": "Novidades e Reposições 🎈 (Clique Aqui e Veja Mais)",
-      "link": "https://www.vollermanie.com.br/conjuntos-macaquinhos-e-vestidos",
-      "collection_id": null,
-      "sort": "news"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/desktop.jpg",
-          "mobile_img": "/img/uploads/ref2-celular-branco.jpg"
-        }
-      ]
     }
   ]
 }
