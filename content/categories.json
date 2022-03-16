@@ -1,6 +1,10 @@
 {
   "sections": [
     {
+      "type": "document-banner",
+      "enabled": true
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -8,10 +12,6 @@
           "mobile_img": "/img/uploads/0002.png"
         }
       ]
-    },
-    {
-      "type": "document-banner",
-      "enabled": true
     },
     {
       "type": "breadcrumbs",
