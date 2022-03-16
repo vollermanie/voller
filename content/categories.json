@@ -5,12 +5,6 @@
       "enabled": true
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": true,
-      "slides": []
-    },
-    {
       "type": "category-retail",
       "enabled": true,
       "sort": "news"
