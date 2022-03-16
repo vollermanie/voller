@@ -1,19 +1,6 @@
 {
   "sections": [
     {
-      "type": "breadcrumbs",
-      "enabled": true
-    },
-    {
-      "type": "category-retail",
-      "enabled": true,
-      "sort": "news"
-    },
-    {
-      "type": "document-description",
-      "enabled": true
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
@@ -24,6 +11,19 @@
     },
     {
       "type": "document-banner",
+      "enabled": true
+    },
+    {
+      "type": "breadcrumbs",
+      "enabled": true
+    },
+    {
+      "type": "category-retail",
+      "enabled": true,
+      "sort": "news"
+    },
+    {
+      "type": "document-description",
       "enabled": true
     }
   ]
