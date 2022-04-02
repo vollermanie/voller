@@ -44,16 +44,6 @@
       "shuffle": true,
       "limit": 24,
       "page": 1,
-      "sort": "sales",
-      "title": "Kits De Relógios - à partir de R$ 21,90  🌻 (Clique Aqui e Veja Mais)",
-      "link": "https://www.vollermanie.com.br/kits-de-relogios-femininos",
-      "collection_id": "622bd63f8bd0103c54ef7150:categories:Kits De Relógios Femininos:/kits-de-relogios-femininos"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 24,
-      "page": 1,
       "collection_id": "6173008d9bb4ce40f93b03c2:categories:CONJUNTOS, MACAQUINHOS E VESTIDOS:/conjuntos-macaquinhos-e-vestidos",
       "title": "Todos os Conjuntos, Vestidos e Macaquinhos 👗✨ (Clique Aqui e Veja Mais)",
       "link": "https://www.vollermanie.com.br/conjuntos-macaquinhos-e-vestidos",
@@ -68,6 +58,16 @@
       "link": "https://www.vollermanie.com.br/t-shirts-ver-mais",
       "page": 1,
       "limit": 24
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 24,
+      "page": 1,
+      "sort": "sales",
+      "title": "Kits De Relógios - à partir de R$ 21,90  🌻 (Clique Aqui e Veja Mais)",
+      "link": "https://www.vollermanie.com.br/kits-de-relogios-femininos",
+      "collection_id": "622bd63f8bd0103c54ef7150:categories:Kits De Relógios Femininos:/kits-de-relogios-femininos"
     }
   ]
 }
