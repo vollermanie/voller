@@ -62,12 +62,12 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": "625783e52e405e04ff3fd309:categories:T-Shirts:/t-shirts",
-      "sort": "sales",
-      "title": "Todas as T-Shirts 🌈 (Clique Aqui e Veja Mais)",
-      "link": "https://www.vollermanie.com.br/t-shirts",
+      "limit": 24,
       "page": 1,
-      "limit": 24
+      "collection_id": "625783e52e405e04ff3fd309:categories:T-Shirts:/t-shirts",
+      "sort": "views",
+      "title": "T-Shirt's ❤️ (Clique Aqui e Veja Mais) ",
+      "link": "https://www.vollermanie.com.br/t-shirts"
     },
     {
       "type": "banner-slider",
