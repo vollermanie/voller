@@ -65,7 +65,7 @@
       "limit": 24,
       "page": 1,
       "collection_id": "625783e52e405e04ff3fd309:categories:T-Shirts:/t-shirts",
-      "sort": "views",
+      "sort": "sales",
       "title": "T-Shirt's ❤️ (Clique Aqui e Veja Mais) ",
       "link": "https://www.vollermanie.com.br/t-shirts"
     },
@@ -84,7 +84,7 @@
           "start": "2022-04-14T13:12:23.309Z",
           "end": "",
           "img": "/img/uploads/computador-4.5.6.7.jpg",
-          "mobile_img": "/img/uploads/referecia-celular-teste02.jpg"
+          "mobile_img": "/img/uploads/referecia-celular-teste01.jpg"
         }
       ]
     }
