@@ -17,6 +17,27 @@
           "mobile_img": "/img/uploads/ref-1-.jpg"
         }
       ]
+    },
+    {
+      "type": "custom-content",
+      "markdown": "\\--"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/11.png",
+          "mobile_img": "/img/uploads/xxxx-3-.png"
+        },
+        {
+          "img": "/img/uploads/13.png",
+          "mobile_img": "/img/uploads/xxxx-2-.png"
+        },
+        {
+          "img": "/img/uploads/13.png",
+          "mobile_img": "/img/uploads/xxxx-1-.png"
+        }
+      ]
     }
   ],
   "body": "Veja abaixo um poucos de algumas pessoas que compraram na nossa loja e que hoje lucram até 200% revendendo nossas peças!"
