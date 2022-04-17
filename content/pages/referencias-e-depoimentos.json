@@ -1,0 +1,19 @@
+{
+  "title": "Referencias e Depoimentos",
+  "sections": [
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "2022-04-17T19:50:50.030Z",
+          "end": "2022-04-17T19:50:50.068Z",
+          "img": "/img/uploads/computador-3.4.5.6.jpg",
+          "mobile_img": "/img/uploads/mobile-1.2.jpg"
+        }
+      ]
+    }
+  ],
+  "body": "Veja abaixo um poucos de algumas pessoas que compraram na nossa loja e que hoje lucram até 200% revendendo nossas peças!"
+}
