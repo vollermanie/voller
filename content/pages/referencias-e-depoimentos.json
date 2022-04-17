@@ -2,15 +2,19 @@
   "title": "Referencias e Depoimentos",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": true,
-      "slides": [
+      "type": "banners-grid",
+      "banners": [
         {
-          "start": "2022-04-17T19:50:50.030Z",
-          "end": "",
-          "img": "/img/uploads/computador-3.4.5.6.jpg",
-          "mobile_img": "/img/uploads/mobile-1.2.jpg"
+          "img": "/img/uploads/ref-1-.jpg",
+          "mobile_img": "/img/uploads/screenshot_2020-09-08-16-27-21-176_com.whatsapp.w4b.jpg"
+        },
+        {
+          "img": "/img/uploads/ref-2-.jpg",
+          "mobile_img": "/img/uploads/ref-2-.jpg"
+        },
+        {
+          "img": "/img/uploads/screenshot_2020-09-08-16-27-21-176_com.whatsapp.w4b.jpg",
+          "mobile_img": "/img/uploads/ref-1-.jpg"
         }
       ]
     }
