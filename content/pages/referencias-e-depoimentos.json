@@ -13,10 +13,6 @@
       ]
     },
     {
-      "type": "custom-content",
-      "markdown": "\\-"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
@@ -29,10 +25,6 @@
           "img": "/img/uploads/t-sem-data-10-.png"
         }
       ]
-    },
-    {
-      "type": "custom-content",
-      "markdown": "\\-"
     },
     {
       "type": "banners-grid",
@@ -49,10 +41,6 @@
       ]
     },
     {
-      "type": "custom-content",
-      "markdown": "\\-"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
@@ -65,10 +53,6 @@
           "img": "/img/uploads/sem-data-4-.png"
         }
       ]
-    },
-    {
-      "type": "custom-content",
-      "markdown": "\\-"
     },
     {
       "type": "banners-grid",
@@ -85,10 +69,6 @@
       ]
     },
     {
-      "type": "custom-content",
-      "markdown": "\\-"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
@@ -101,10 +81,6 @@
           "img": "/img/uploads/dezembro-2-.png"
         }
       ]
-    },
-    {
-      "type": "custom-content",
-      "markdown": "\\-"
     },
     {
       "type": "banners-grid",
@@ -121,10 +97,6 @@
       ]
     },
     {
-      "type": "custom-content",
-      "markdown": "\\-"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
@@ -137,10 +109,6 @@
           "img": "/img/uploads/setembro-3-.png"
         }
       ]
-    },
-    {
-      "type": "custom-content",
-      "markdown": "\\-"
     },
     {
       "type": "banners-grid",
@@ -157,10 +125,6 @@
       ]
     },
     {
-      "type": "custom-content",
-      "markdown": "\\-"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
@@ -173,10 +137,6 @@
           "img": "/img/uploads/agosto-6-.png"
         }
       ]
-    },
-    {
-      "type": "custom-content",
-      "markdown": "\\-"
     },
     {
       "type": "banners-grid",
