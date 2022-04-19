@@ -5,6 +5,42 @@
       "type": "banners-grid",
       "banners": [
         {
+          "img": "/img/uploads/agosto-7-.png"
+        },
+        {
+          "img": "/img/uploads/agosto-8-.png"
+        },
+        {
+          "img": "/img/uploads/agosto-9-.png"
+        }
+      ]
+    },
+    {
+      "type": "custom-content",
+      "markdown": "\\-"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/agosto-4-.png"
+        },
+        {
+          "img": "/img/uploads/agosto-5-.png"
+        },
+        {
+          "img": "/img/uploads/agosto-6-.png"
+        }
+      ]
+    },
+    {
+      "type": "custom-content",
+      "markdown": "\\-"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
           "img": "/img/uploads/agosto-1-.png"
         },
         {
@@ -14,6 +50,10 @@
           "img": "/img/uploads/agosto-3-.png"
         }
       ]
+    },
+    {
+      "type": "custom-content",
+      "markdown": "\\-"
     }
   ],
   "body": "Veja abaixo um poucos de algumas pessoas que compraram na nossa loja e que hoje lucram até 200% revendendo nossas peças!"
