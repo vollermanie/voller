@@ -5,29 +5,39 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/agosto-desktop-9-.png",
-          "mobile_img": "/img/uploads/agosto-mobile-9-.png"
+          "img": "/img/uploads/desktop-agosto-7-.png",
+          "mobile_img": "/img/uploads/mobile-agosto-7-.png"
         },
         {
-          "img": "/img/uploads/agosto-desktop-8-.png",
-          "mobile_img": "/img/uploads/agosto-mobile-8-.png"
+          "img": "/img/uploads/desktop-agosto-8-.png",
+          "mobile_img": "/img/uploads/mobile-agosto-8-.png"
         },
         {
-          "mobile_img": "/img/uploads/agosto-mobile-7-.png",
-          "img": "/img/uploads/agosto-desktop-7-.png"
+          "img": "/img/uploads/desktop-agosto-9-.png",
+          "mobile_img": "/img/uploads/mobile-agosto-9-.png"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/desktop-agosto-4-.png",
+          "mobile_img": "/img/uploads/mobile-agosto-4-.png"
         },
         {
-          "img": "/img/uploads/agosto-desktop-6-.png",
-          "mobile_img": "/img/uploads/agosto-mobile-6-.png"
+          "img": "/img/uploads/desktop-agosto-5-.png",
+          "mobile_img": "/img/uploads/mobile-agosto-5-.png"
         },
         {
-          "img": "/img/uploads/agosto-desktop-5-.png",
-          "mobile_img": "/img/uploads/agosto-mobile-5-.png"
-        },
-        {
-          "img": "/img/uploads/agosto-desktop-4-.png",
-          "mobile_img": "/img/uploads/agosto-mobile-4-.png"
-        },
+          "img": "/img/uploads/desktop-agosto-6-.png",
+          "mobile_img": "/img/uploads/mobile-agosto-6-.png"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
         {
           "img": "/img/uploads/agosto-desktop-3-.png",
           "mobile_img": "/img/uploads/agosto-mobile-3-.png"
