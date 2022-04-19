@@ -2,6 +2,56 @@
   "title": "Referências e Depoimentos",
   "sections": [
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/dezembro-3-.png"
+        },
+        {
+          "img": "/img/uploads/dezembro-4-.png"
+        },
+        {
+          "img": "/img/uploads/sem-data-1-.png"
+        }
+      ]
+    },
+    {
+      "type": "custom-content",
+      "markdown": "\\-"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/outubro-3-.png"
+        },
+        {
+          "img": "/img/uploads/dezembro-1-.png"
+        },
+        {
+          "img": "/img/uploads/dezembro-2-.png"
+        }
+      ]
+    },
+    {
+      "type": "custom-content",
+      "markdown": "\\-"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/setembro-4-.png"
+        },
+        {
+          "img": "/img/uploads/outubro-1-.png"
+        },
+        {
+          "img": "/img/uploads/outubro-2-.png"
+        }
+      ]
+    },
+    {
       "type": "custom-content",
       "markdown": "\\-"
     },
