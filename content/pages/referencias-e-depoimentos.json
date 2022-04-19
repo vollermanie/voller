@@ -5,34 +5,13 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/agosto-mobile-1-.png"
+          "img": "/img/uploads/agosto-1-.png"
         },
         {
-          "img": "/img/uploads/agosto-mobile-9-.png"
+          "img": "/img/uploads/agosto-2-.png"
         },
         {
-          "img": "/img/uploads/agosto-mobile-3-.png"
-        }
-      ]
-    },
-    {
-      "type": "custom-content",
-      "markdown": "\\-"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/agosto-mobile-3-.png",
-          "mobile_img": "/img/uploads/agosto-mobile-3-.png"
-        },
-        {
-          "img": "/img/uploads/agosto-mobile-2-.png",
-          "mobile_img": "/img/uploads/agosto-mobile-2-.png"
-        },
-        {
-          "img": "/img/uploads/agosto-mobile-1-.png",
-          "mobile_img": "/img/uploads/agosto-mobile-1-.png"
+          "img": "/img/uploads/agosto-3-.png"
         }
       ]
     }
