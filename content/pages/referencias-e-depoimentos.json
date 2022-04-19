@@ -1,6 +1,28 @@
 {
-  "title": "Referencias e Depoimentos",
+  "title": "Referências e Depoimentos",
   "sections": [
+    {
+      "type": "custom-content",
+      "markdown": "\\-"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/setembro-1-.png"
+        },
+        {
+          "img": "/img/uploads/setembro-2-.png"
+        },
+        {
+          "img": "/img/uploads/setembro-3-.png"
+        }
+      ]
+    },
+    {
+      "type": "custom-content",
+      "markdown": "\\-"
+    },
     {
       "type": "banners-grid",
       "banners": [
@@ -50,10 +72,6 @@
           "img": "/img/uploads/agosto-3-.png"
         }
       ]
-    },
-    {
-      "type": "custom-content",
-      "markdown": "\\-"
     }
   ],
   "body": "Veja abaixo um poucos de algumas pessoas que compraram na nossa loja e que hoje lucram até 200% revendendo nossas peças!"
