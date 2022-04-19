@@ -5,37 +5,40 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/ref-1-.jpg",
-          "mobile_img": "/img/uploads/screenshot_2020-09-08-16-27-21-176_com.whatsapp.w4b.jpg"
+          "img": "/img/uploads/agosto-desktop-9-.png",
+          "mobile_img": "/img/uploads/agosto-mobile-9-.png"
         },
         {
-          "img": "/img/uploads/ref-2-.jpg",
-          "mobile_img": "/img/uploads/ref-2-.jpg"
+          "img": "/img/uploads/agosto-desktop-8-.png",
+          "mobile_img": "/img/uploads/agosto-mobile-8-.png"
         },
         {
-          "img": "/img/uploads/screenshot_2020-09-08-16-27-21-176_com.whatsapp.w4b.jpg",
-          "mobile_img": "/img/uploads/ref-1-.jpg"
-        }
-      ]
-    },
-    {
-      "type": "custom-content",
-      "markdown": "\\--"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/11.png",
-          "mobile_img": "/img/uploads/xxxx-3-.png"
+          "mobile_img": "/img/uploads/agosto-mobile-7-.png",
+          "img": "/img/uploads/agosto-desktop-7-.png"
         },
         {
-          "img": "/img/uploads/13.png",
-          "mobile_img": "/img/uploads/xxxx-2-.png"
+          "img": "/img/uploads/agosto-desktop-6-.png",
+          "mobile_img": "/img/uploads/agosto-mobile-6-.png"
         },
         {
-          "img": "/img/uploads/13.png",
-          "mobile_img": "/img/uploads/xxxx-1-.png"
+          "img": "/img/uploads/agosto-desktop-5-.png",
+          "mobile_img": "/img/uploads/agosto-mobile-5-.png"
+        },
+        {
+          "img": "/img/uploads/agosto-desktop-4-.png",
+          "mobile_img": "/img/uploads/agosto-mobile-4-.png"
+        },
+        {
+          "img": "/img/uploads/agosto-desktop-3-.png",
+          "mobile_img": "/img/uploads/agosto-mobile-3-.png"
+        },
+        {
+          "img": "/img/uploads/agosto-desktop-2-.png",
+          "mobile_img": "/img/uploads/agosto-mobile-2-.png"
+        },
+        {
+          "img": "/img/uploads/agosto-desktop-1-.png",
+          "mobile_img": "/img/uploads/agosto-mobile-1-.png"
         }
       ]
     }
