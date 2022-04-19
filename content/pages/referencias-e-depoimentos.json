@@ -2,6 +2,10 @@
   "title": "Referências e Depoimentos",
   "sections": [
     {
+      "type": "extra-page",
+      "enabled": true
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -153,5 +157,5 @@
       ]
     }
   ],
-  "body": "Veja abaixo um poucos de algumas pessoas que compraram na nossa loja e que hoje lucram até 200% revendendo nossas peças!"
+  "body": "Veja abaixo algumas de nossas clientes, que compraram na nossa loja e que hoje lucram até 200% revendendo nossas peças! ❤️🚀"
 }
