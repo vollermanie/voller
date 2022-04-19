@@ -2,6 +2,10 @@
   "title": "Referencias e Depoimentos",
   "sections": [
     {
+      "type": "custom-content",
+      "markdown": "\\-"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -19,6 +23,10 @@
       ]
     },
     {
+      "type": "custom-content",
+      "markdown": "\\-"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -34,6 +42,10 @@
           "mobile_img": "/img/uploads/mobile-agosto-6-.png"
         }
       ]
+    },
+    {
+      "type": "custom-content",
+      "markdown": "\\-"
     },
     {
       "type": "banners-grid",
