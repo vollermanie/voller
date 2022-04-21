@@ -72,19 +72,19 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
+      "full_width": true,
       "slides": [
         {
           "start": "2022-04-14T13:07:23.212Z",
           "end": "",
-          "img": "/img/uploads/ref-computador-3.4.5.6ok.jpg",
+          "img": "/img/uploads/ref-computador-1.2.3.jpg",
           "mobile_img": "/img/uploads/ref-mobile-1.2ok.jpg",
           "link": "https://www.vollermanie.com.br/pages/referencias-e-depoimentos"
         },
         {
           "start": "2022-04-21T17:03:20.254Z",
           "end": "",
-          "img": "/img/uploads/ref-computador-3out.4st.1.2ok.jpg",
+          "img": "/img/uploads/ref-computador-3.4.5.6ok.jpg",
           "link": "https://www.vollermanie.com.br/pages/referencias-e-depoimentos",
           "mobile_img": "/img/uploads/ref-mobile-5.6ok.jpg"
         }
