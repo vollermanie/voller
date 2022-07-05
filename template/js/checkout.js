@@ -12,7 +12,7 @@ ecomCart.on('change', ({ data }) => {
     document.getElementById('containerCalc').style.display = 'block'
     var checkoutButton = document.querySelector('.cart__btn-checkout')
     var percentBar
-    var countQuantity = data.subtota
+    var countQuantity = data.subtotal
     var evalQuantity = lessQuantity - countQuantity
     if (evalQuantity > 0) {
       lessUnit.innerHTML = window.ecomUtils.formatMoney(evalQuantity, 'BRL', 'pt_br')
