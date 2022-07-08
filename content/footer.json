@@ -4,10 +4,37 @@
     "text": "Sua loja de Atacado de excelência no Brasil com as melhores ofertas roupas femininas, acessórios e tendências."
   },
   "links_1": {
-    "list_pages": true,
+    "list_pages": false,
     "title": "Institucional",
     "list": [
-      {}
+      {
+        "text": "Prazo de Envios e Entregas",
+        "url": "Prazo de Envios e Entregas"
+      },
+      {
+        "text": "Garantia dos Relógios e Cuidados",
+        "url": "https://www.vollermanie.com.br/pages/garantia-dos-relogios-e-cuidados"
+      },
+      {
+        "text": "Trocas e Devoluções",
+        "url": "https://www.vollermanie.com.br/pages/trocas"
+      },
+      {
+        "text": "Referências e Depoimentos",
+        "url": "https://www.vollermanie.com.br/pages/referencias-e-depoimentos"
+      },
+      {
+        "text": "Dúvidas Frequentes",
+        "url": "https://www.vollermanie.com.br/pages/faq"
+      },
+      {
+        "text": "Formas de Pagamento",
+        "url": "https://www.vollermanie.com.br/pages/pagamentos"
+      },
+      {
+        "text": "Política de Privacidade",
+        "url": "https://www.vollermanie.com.br/pages/privacidade"
+      }
     ]
   },
   "links_2": {
@@ -30,17 +57,17 @@
   ],
   "payment_methods": {
     "bb": false,
-    "visa": false,
+    "visa": true,
     "boleto": false,
     "aura": false,
     "banrisul": false,
-    "elo": false,
+    "elo": true,
     "hipercard": false,
     "hsbc": false,
     "bradesco": false,
     "santander": false,
-    "mastercard": false,
-    "paypal": false,
+    "mastercard": true,
+    "paypal": true,
     "citibank": false,
     "diners": false,
     "mais": false,
