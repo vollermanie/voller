@@ -4,9 +4,11 @@
     "text": "Sua loja de Atacado de excelência no Brasil com as melhores ofertas roupas femininas, acessórios e tendências."
   },
   "links_1": {
-    "list_pages": true,
+    "list_pages": false,
     "title": "Institucional",
-    "list": []
+    "list": [
+      {}
+    ]
   },
   "links_2": {
     "list_categories": true,
