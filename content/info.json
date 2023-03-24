@@ -6,17 +6,18 @@
   },
   "installments": {
     "show": true,
-    "text": "Através dos Cartões de Crédito",
-    "title": "PARCELE EM ATÉ 12X"
+    "text": "no Cartão de Crédito",
+    "title": "PARCELE EM ATÉ 12x"
   },
   "exchange": {
     "show": true,
-    "text": "Não gostou? A primeira troca é gratuita"
+    "text": "nas suas divulgações",
+    "title": "USE NOSSAS FOTOS"
   },
   "promo": {
     "show": true,
-    "text": "Diferentes promoções ao longo do ano!",
-    "title": "PEDIDO MÍNIMO ",
-    "link": "Escolha modelos, cores e tamanho como desejar."
+    "text": "",
+    "title": "COMECE COM POUCO",
+    "link": ""
   }
 }
