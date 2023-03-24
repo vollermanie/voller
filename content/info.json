@@ -1,11 +1,13 @@
 {
   "shipping": {
     "show": true,
-    "text": "Entregamos para todo o Brasil"
+    "text": "Acima de *R$ 399",
+    "title": "FRETE GRÁTIS"
   },
   "installments": {
     "show": true,
-    "text": "Parcele sem juros"
+    "text": "Através dos Cartões de Crédito",
+    "title": "PARCELE EM ATÉ 12X"
   },
   "exchange": {
     "show": true,
@@ -13,6 +15,8 @@
   },
   "promo": {
     "show": true,
-    "text": "Diferentes promoções ao longo do ano!"
+    "text": "Diferentes promoções ao longo do ano!",
+    "title": "PEDIDO MÍNIMO ",
+    "link": "Escolha modelos, cores e tamanho como desejar."
   }
 }
