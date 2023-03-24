@@ -4,7 +4,7 @@
   "primary_color": "#a5003c",
   "theme": {
     "bootswatch": "yeti",
-    "custom": "_"
+    "custom": "ecom-beauty"
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/voller",
