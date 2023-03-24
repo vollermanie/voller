@@ -1,14 +1,12 @@
 {
   "sort_categories": [
-    "kits-de-relogios-femininos",
     "conjuntos",
     "vestidos",
     "macaquinhos",
-    "pecas-promocionais",
-    "todas-os-produtos-roupas",
-    "t-shirts"
+    "kits-de-relogios-femininos",
+    "pecas-promocionais"
   ],
   "phone_wpp": true,
   "socials": true,
-  "alphabetical_order": true
+  "alphabetical_order": false
 }
