@@ -4,26 +4,9 @@
     "link": "/index"
   },
   "contacts_stripe": {
-    "pages": [
-      {
-        "title": "Site Seguro!",
-        "link": "/index"
-      },
-      {
-        "title": "Parcele em até 12 vezes no Cartão!",
-        "link": "/index"
-      },
-      {
-        "title": "Seja um(a) dos nossos revendedores!",
-        "link": "/index"
-      },
-      {
-        "title": "Enviamos para todo o Brasil",
-        "link": "/index"
-      }
-    ],
-    "phone_wpp": true,
-    "socials": true
+    "pages": [],
+    "phone_wpp": false,
+    "socials": false
   },
   "categories_list": {
     "featured": [
@@ -39,5 +22,7 @@
     "full_width": true
   },
   "search_input": true,
-  "desktop_megamenu": true
+  "desktop_megamenu": true,
+  "alphabetical_order_submenu": true,
+  "full_width_submenu": true
 }
