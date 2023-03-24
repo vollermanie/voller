@@ -3,18 +3,20 @@
   "currency_symbol": "R$",
   "primary_color": "#a5003c",
   "theme": {
-    "bootswatch": "_",
-    "custom": "ecom-beauty"
+    "bootswatch": "yeti",
+    "custom": "_"
   },
-  "repository": "ecomplus-stores/voller",
   "bg_color": "#ffffff",
+  "repository": "ecomplus-stores/voller",
   "logo": "/img/uploads/logopageprincipal.webp",
   "name": "Voller Manie",
   "short_name": "Voller Manie",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
+  "font_family": "Montserrat",
   "favicon": "/img/uploads/indice.webp",
+  "icons_font": "feather-icons",
   "country_code": "BR",
   "secondary_color": "#000000",
   "icon": "/img/uploads/indice.webp",
