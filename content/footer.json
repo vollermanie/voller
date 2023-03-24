@@ -1,11 +1,11 @@
 {
   "description": {
     "title": "Voller Manie",
-    "text": "Sua loja de Atacado de excelência no Brasil com as melhores ofertas roupas femininas, acessórios e tendências."
+    "text": "Compre e Revenda Roupa Feminina no Atacado com qualidade e preço baixo.  Parcele em até 12x no cartão. Tenha um ótimo retorno financeiro."
   },
   "links_1": {
     "list_pages": false,
-    "title": "Institucional",
+    "title": "Informações",
     "list": [
       {
         "text": "Prazo de Envios e Entregas",
@@ -71,6 +71,7 @@
     "citibank": false,
     "diners": false,
     "mais": false,
+    "pix": false,
     "amex": false,
     "itau": false
   },
