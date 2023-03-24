@@ -4,7 +4,7 @@
   "primary_color": "#a5003c",
   "theme": {
     "bootswatch": "_",
-    "custom": "_"
+    "custom": "ecom-beauty"
   },
   "repository": "ecomplus-stores/voller",
   "bg_color": "#ffffff",
