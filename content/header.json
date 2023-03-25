@@ -19,7 +19,7 @@
       "/t-shirts?T-Shirts"
     ],
     "random": 11,
-    "full_width": true
+    "full_width": false
   },
   "search_input": true,
   "desktop_megamenu": true,
