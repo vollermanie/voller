@@ -21,6 +21,6 @@
   },
   "search_input": true,
   "desktop_megamenu": true,
-  "alphabetical_order_submenu": false,
+  "alphabetical_order_submenu": true,
   "full_width_submenu": false
 }
