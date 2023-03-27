@@ -70,8 +70,8 @@
       "limit": 24,
       "page": 1,
       "collection_id": "623a64ba2e405e04fff38e2b:categories:Peças Promocionais:/pecas-promocionais",
-      "sort": "views",
-      "title": "Peças Em Promoção! Aproveite! 😱 (Clique Aqui e Veja Mais)",
+      "sort": "lowest_price",
+      "title": "PEÇAS EM PROMOÇÃO!",
       "link": "https://www.vollermanie.com.br/pecas-promocionais"
     },
     {
