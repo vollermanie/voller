@@ -5,9 +5,9 @@
   "options": {
     "buyText": "Adicionar ao Carrinho",
     "buy": "",
-    "strHasQuantitySelector": "true",
+    "strHasQuantitySelector": " ",
     "strHasPromotionTimer": "_",
-    "lowQuantityToWarn": 12,
+    "lowQuantityToWarn": 10,
     "maxVariationOptionsBtns": 6,
     "quoteInfo": ""
   }
