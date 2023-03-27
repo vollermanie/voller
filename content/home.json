@@ -24,23 +24,13 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/0001.png",
-          "mobile_img": "/img/uploads/4-figuras-6-pecas.png",
-          "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO somente de 10 peças variadas!!",
-          "link": "https://www.vollermanie.com.br/kits-de-relogios-femininos"
-        }
-      ]
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/banner-desktop-558-x-441-px-grid-de-2-imagens-x-mais-escuro.png",
-          "mobile_img": "/img/uploads/banner-mobile-794x794-03-1-.png"
+          "img": "/img/uploads/conj.jpg"
         },
         {
-          "img": "/img/uploads/banner-desktop-558-x-441-px-grid-de-2-imagens.png",
-          "mobile_img": "/img/uploads/banner-mobile-794-x-794-px-.png"
+          "img": "/img/uploads/vest.jpg"
+        },
+        {
+          "img": "/img/uploads/mac.jpg"
         }
       ]
     },
@@ -49,10 +39,10 @@
       "shuffle": true,
       "limit": 24,
       "page": 1,
-      "sort": "sales",
-      "title": "Kits De Relógios - à partir de R$ 21,90  🌻 (Clique Aqui e Veja Mais)",
-      "link": "https://www.vollermanie.com.br/kits-de-relogios-femininos",
-      "collection_id": "622bd63f8bd0103c54ef7150:categories:Kits De Relógios Femininos:/kits-de-relogios-femininos"
+      "sort": "news",
+      "title": "LANÇAMENTO",
+      "link": "",
+      "collection_id": null
     },
     {
       "type": "collection-shelf",
@@ -80,8 +70,8 @@
       "limit": 24,
       "page": 1,
       "collection_id": "623a64ba2e405e04fff38e2b:categories:Peças Promocionais:/pecas-promocionais",
-      "sort": "views",
-      "title": "Peças Em Promoção! Aproveite! 😱 (Clique Aqui e Veja Mais)",
+      "sort": "lowest_price",
+      "title": "PEÇAS EM PROMOÇÃO!",
       "link": "https://www.vollermanie.com.br/pecas-promocionais"
     },
     {
@@ -118,6 +108,19 @@
           "end": "",
           "img": "/img/uploads/ref-computador-3out.4st.1.2ok.jpg",
           "mobile_img": "/img/uploads/referencias-794-794-px-3-.jpg"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/banner-desktop-558-x-441-px-grid-de-2-imagens-x-mais-escuro.png",
+          "mobile_img": "/img/uploads/banner-mobile-794x794-03-1-.png"
+        },
+        {
+          "img": "/img/uploads/banner-desktop-558-x-441-px-grid-de-2-imagens.png",
+          "mobile_img": "/img/uploads/banner-mobile-794-x-794-px-.png"
         }
       ]
     }
