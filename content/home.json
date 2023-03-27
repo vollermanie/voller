@@ -24,17 +24,6 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/0001.png",
-          "mobile_img": "/img/uploads/4-figuras-6-pecas.png",
-          "alt": "ATENÇÃO: vendemos somente atacado, não vendemos varejo, PEDIDO MINIMO somente de 10 peças variadas!!",
-          "link": "https://www.vollermanie.com.br/kits-de-relogios-femininos"
-        }
-      ]
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
           "img": "/img/uploads/banner-desktop-558-x-441-px-grid-de-2-imagens-x-mais-escuro.png",
           "mobile_img": "/img/uploads/banner-mobile-794x794-03-1-.png"
         },
