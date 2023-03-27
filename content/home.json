@@ -92,17 +92,20 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/depoimentos-comp-01.png"
+          "img": "/img/uploads/depoimentos-comp-01.png",
+          "mobile_img": "/img/uploads/depoimentos-cel-01.png"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/depoimentos-comp-02.png"
+          "img": "/img/uploads/depoimentos-comp-02.png",
+          "mobile_img": "/img/uploads/depoimentos-cel-02.png"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/depoimentos-comp-03.png"
+          "img": "/img/uploads/depoimentos-comp-03.png",
+          "mobile_img": "/img/uploads/depoimentos-cel-03.png"
         }
       ]
     },
