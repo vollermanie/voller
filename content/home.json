@@ -87,6 +87,28 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/depoimentos-comp-01.png"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/depoimentos-comp-02.png"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/depoimentos-comp-03.png"
+        }
+      ]
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
       "full_width": false,
       "slides": [
         {
