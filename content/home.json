@@ -45,6 +45,20 @@
       ]
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/conj.jpg"
+        },
+        {
+          "img": "/img/uploads/vest.jpg"
+        },
+        {
+          "img": "/img/uploads/mac.jpg"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
