@@ -85,58 +85,6 @@
       "link": "https://www.vollermanie.com.br/t-shirts"
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": true,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/depoimentos-comp-01.png",
-          "mobile_img": "/img/uploads/depoimentos-cel-01.png"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/depoimentos-comp-02.png",
-          "mobile_img": "/img/uploads/depoimentos-cel-02.png"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/depoimentos-comp-03.png",
-          "mobile_img": "/img/uploads/depoimentos-cel-03.png"
-        }
-      ]
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2022-04-14T13:07:23.212Z",
-          "end": "",
-          "img": "/img/uploads/ref-computador-1.2.3.jpg",
-          "mobile_img": "/img/uploads/referencias-794-794-px-1-.jpg",
-          "link": "https://www.vollermanie.com.br/pages/referencias-e-depoimentos"
-        },
-        {
-          "start": "2022-04-21T17:03:20.254Z",
-          "end": "",
-          "img": "/img/uploads/ref-computador-3.4.5.6ok.jpg",
-          "link": "https://www.vollermanie.com.br/pages/referencias-e-depoimentos",
-          "mobile_img": "/img/uploads/referencias-794-794-px-2-.jpg"
-        },
-        {
-          "start": "2022-06-13T12:46:33.157Z",
-          "end": "",
-          "img": "/img/uploads/ref-computador-3out.4st.1.2ok.jpg",
-          "mobile_img": "/img/uploads/referencias-794-794-px-3-.jpg"
-        }
-      ]
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
