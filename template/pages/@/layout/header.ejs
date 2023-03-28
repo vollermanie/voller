@@ -215,7 +215,7 @@ const fullWidthSubmenu = header.full_width_submenu
             <input
               type="search"
               name="term"
-              placeholder="<%= _.dictionary('searchProducts') %>"
+              placeholder="O QUE VOCÊ QUER VESTIR HOJE?"
               aria-label="<%= _.dictionary('searchProducts') %>"
               class="header__search-input form-control"
               id="search-input"
@@ -278,7 +278,7 @@ const fullWidthSubmenu = header.full_width_submenu
                     ? `onmouseover="toggleSubmenu('${slug}', this)" onclick="toggleSubmenu('${slug}', this, true)"`
                     : `onclick="toggleSidenav('${slug}')"` %>
                 >
-                  <%= name %>
+                  <h2><%= name %></h2>
                 </a>
                 <%- $categoryLink %>
                 <%  if (slug && hasMegamenu) { %>

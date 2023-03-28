@@ -92,3 +92,58 @@ display: none
 .shipping-calculator__option {
   color: #212529 !important;
 }
+.header, #search-input {
+  background-color: #a5013c !important;
+}
+#search-input {
+  &::placeholder {
+    color: #c9678a !important;
+  }
+}
+
+.top-bar__nav {
+  display: none !important;
+}
+.header__category {
+  color: #fff !important;
+  text-transform: uppercase !important;
+  * {
+    font-size: 14px !important;
+    font-weight: bold;
+  }
+  &:hover {
+    opacity: .8;
+  }
+}
+.header__nav--full::before {
+  background: #B3295C !important;
+  height: 1px !important;
+  margin-top: -10px !important;
+}
+.header__search {
+  border-radius: 50px !important;
+  border: 1px solid #B3295C !important;
+  i {
+    color: #fff !important
+  }
+}
+#user-button, #cart-button {
+  i {
+    color: #fff !important
+  }
+}
+#header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.header__submenu {
+  margin-top: 0;
+}
+.header__nav--full {
+  padding-top: 20px !important;
+}
+#page-home {
+  .banners-grid + .custom-html {
+    background: #F9F2F5;
+  }
+}
