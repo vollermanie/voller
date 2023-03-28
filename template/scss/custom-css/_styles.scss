@@ -89,6 +89,13 @@ display: none
   transform: scale(1.03);
   transition: all 0.8s ease;
 }
+.products-carousel__title {
+  font-size: 26px !important;
+}
+.product-card__name {
+  color: #333;
+  font-size: 16px;
+}
 @media(max-width: 578.59px) {
   .banners-grid .row {
     display: flex;
@@ -109,11 +116,4 @@ display: none
 }
 .shipping-calculator__option {
   color: #212529 !important;
-}
-.products-carousel__title {
-  font-size: 26px !important;
-}
-.product-card__name {
-  color: #333;
-  font-size: 16px;
 }
