@@ -99,7 +99,21 @@ display: none
     max-width: 66.6% !important;
     flex: 0 0 66.66% !important;
   }
+  .products-carousel__title {
+    font-size: 19px !important;
+  }
+  .product-card__name {
+    color: #333;
+    font-size: 18px;
+  }
 }
 .shipping-calculator__option {
   color: #212529 !important;
+}
+.products-carousel__title {
+  font-size: 26px !important;
+}
+.product-card__name {
+  color: #333;
+  font-size: 16px;
 }
