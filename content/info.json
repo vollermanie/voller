@@ -6,17 +6,17 @@
   },
   "installments": {
     "show": true,
-    "text": "no Cartão de Crédito",
+    "text": "no Cartão",
     "title": "PARCELE EM ATÉ 12x"
   },
   "exchange": {
     "show": true,
-    "text": "nas suas divulgações",
+    "text": "nas suas vendas",
     "title": "USE NOSSAS FOTOS"
   },
   "promo": {
     "show": true,
-    "text": "",
+    "text": "com R$ 180,00",
     "title": "COMECE COM POUCO",
     "link": ""
   }
