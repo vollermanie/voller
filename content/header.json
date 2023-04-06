@@ -1,7 +1,8 @@
 {
   "marketing_stripe": {
-    "text": "Pedido minimo 08 PEÇAS! 🎇🎉",
-    "link": "/index"
+    "text": "PEDIDO MÍNIMO R$ 180! 🎇🎉",
+    "link": "/index",
+    "background": "#b3295c"
   },
   "contacts_stripe": {
     "pages": [],
