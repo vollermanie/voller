@@ -5,16 +5,6 @@
       "enabled": true
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/0001.png",
-          "mobile_img": "/img/uploads/4-figuras-6-pecas.png",
-          "link": ""
-        }
-      ]
-    },
-    {
       "type": "breadcrumbs",
       "enabled": true
     },
