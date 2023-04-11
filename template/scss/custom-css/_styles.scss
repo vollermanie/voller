@@ -231,3 +231,31 @@ display: none
     transform: scale(1.2);
   }
 }
+.product__prices, .product .variations, #product-actions > div .mb-3:not(.product__payment), .product #product-actions > div article {
+  padding: 0 !important;
+  border-bottom: none !important;
+}
+
+.page--products .product__prices {
+  .prices__installments::before {
+    background-image: url(/img/uploads/credit-card.png);
+    content: "";
+    display: inline-block;
+    height: 13px;
+    margin-right: .3rem;
+    vertical-align: middle;
+    width: 16px;
+  }
+  .prices__discount::before {
+    background-image: url(/img/uploads/qr-code.png);
+    content: "";
+    display: inline-block;
+    height: 13px;
+    margin-right: .3rem;
+    vertical-align: middle;
+    width: 16px;
+  }
+}
+#product-actions .prices__discount span {
+  font-size: 1rem !important;
+}
