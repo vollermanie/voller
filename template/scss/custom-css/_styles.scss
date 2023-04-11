@@ -72,6 +72,10 @@ display: none
   .info-bar__title {
     font-size: 13px !important;
   }
+  #search-bar {
+    margin-top: -7px;
+    padding-bottom: 5px;
+  }
 }
 .info-bar__title {
   font-family: Poppins !important;
@@ -138,6 +142,7 @@ display: none
 }
 .header__submenu {
   margin-top: 0;
+  min-width: 400px;
 }
 .header__nav--full {
   padding-top: 20px !important;
@@ -146,4 +151,35 @@ display: none
   .banners-grid + .custom-html {
     background: #F9F2F5;
   }
+}
+.banners-grid .row::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.banners-grid .row {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+@media (min-width: 767px) {
+  .info-bar__title {
+    font-size: 14px !important;
+  }
+  .info-bar__text {
+    font-size: 12px !important;
+  }
+}
+.products-carousel__title * {
+  font-weight: bold !important;
+}
+
+.products-carousel__title::before {
+  background: #ccc;
+  content: " " !important;
+  height: var(--border-width) !important;
+  left: 10%;
+  margin-top: -.05rem;
+  position: absolute;
+  top: 50%;
+  width: 80%;
 }
