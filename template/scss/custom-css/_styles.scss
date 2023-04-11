@@ -183,3 +183,14 @@ display: none
   top: 50%;
   width: 80%;
 }
+#c-623a64ba2e405e04fff38e2b + .menu__item {
+  display: block !important;
+}
+.minicart__btn-cart {
+  background-color: #a5003c;
+  color: #fff;
+  &:hover {
+    background-color: #fff;
+    color: #a5003c
+  }
+}
