@@ -62,7 +62,8 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/banners-mais-curtos-3840-1400-px-.png"
+      "img": "/img/uploads/banners-mais-curtos-3840-1400-px-.png",
+      "mobile_img": "/img/uploads/banners-mais-curtos-3840-1400-px-.png"
     },
     {
       "type": "collection-shelf",
