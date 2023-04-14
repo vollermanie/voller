@@ -50,11 +50,6 @@
       ]
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banners-mais-curtos-3840-1400-px-.jpg",
-      "mobile_img": "/img/uploads/banners-mais-curtos-3840-1800-px-.jpg"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
@@ -63,6 +58,11 @@
       "sort": "views",
       "title": "Nossa Coleção de Outono-Inverno ❄️",
       "link": "https://www.vollermanie.com.br/outono-inverno"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banners-mais-curtos-3840-1400-px-.jpg",
+      "mobile_img": "/img/uploads/banners-mais-curtos-3840-1800-px-.jpg"
     },
     {
       "autoplay": 0,
