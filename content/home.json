@@ -74,7 +74,19 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/13-1-.jpg"
+          "img": "/img/uploads/banners-mais-curtos-1920-700-px-.png"
+        }
+      ]
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banners-mais-curtos-1920-700-px-.png"
         }
       ]
     },
