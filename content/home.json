@@ -79,26 +79,6 @@
       ]
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banners-mais-curtos-1920-700-px-.png"
-        }
-      ]
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/12-1-.jpg"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
@@ -118,6 +98,14 @@
         {
           "img": "/img/uploads/banner-desktop-558-x-441-px-grid-de-2-imagens.png",
           "mobile_img": "/img/uploads/banner-mobile-794-x-794-px-.png"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/12-1-.jpg"
         }
       ]
     }
