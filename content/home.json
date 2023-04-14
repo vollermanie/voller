@@ -75,7 +75,12 @@
       "banners": [
         {
           "img": "/img/uploads/13-1-.jpg"
-        },
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
         {
           "img": "/img/uploads/12-1-.jpg"
         }
