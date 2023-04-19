@@ -29,16 +29,20 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/conj.jpg"
+          "img": "/img/uploads/conj.jpg",
+          "link": "https://www.vollermanie.com.br/conjuntos"
         },
         {
-          "img": "/img/uploads/vest.jpg"
+          "img": "/img/uploads/vest.jpg",
+          "link": "https://www.vollermanie.com.br/vestidos"
         },
         {
-          "img": "/img/uploads/mac.jpg"
+          "img": "/img/uploads/mac.jpg",
+          "link": "https://www.vollermanie.com.br/macaquinhos-e-macacoes"
         },
         {
-          "img": "/img/uploads/promocao.jpg"
+          "img": "/img/uploads/promocao.jpg",
+          "link": "https://www.vollermanie.com.br/pecas-promocionais"
         }
       ]
     },
